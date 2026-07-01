@@ -286,7 +286,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 
-  <!-- ⑥ SOCIAL PROOF (Google rating — 店舗別変数) -->
+  {% if store.google_rating %}
+  <!-- ⑥ SOCIAL PROOF (Google rating — 店舗別変数 / google_rating がある店舗のみ表示) -->
   <section style="background:#f2ede4; padding:72px 0;">
     <div style="max-width:360px; margin:0 auto; text-align:center; margin-bottom:32px; padding:0 24px;">
       <p class="label reveal" style="margin-bottom:12px;">RECOGNITION</p>
@@ -296,7 +297,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span class="gold-rule reveal"></span>
     </div>
 
-    {% if store.google_rating %}
     <div class="reveal google-rating-block" style="max-width:720px; margin:0 auto 28px; padding:0 24px;">
       <img src="/{{ store.google_rating_img }}" alt="Google Maps rating — {{ store.name_short }}"
         class="google-rating-img" style="border-radius:12px; display:block; box-shadow:0 2px 12px rgba(24,20,12,.1);" />
@@ -311,7 +311,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </p>
       </div>
     </div>
-    {% endif %}
 
     <div class="review-carousel reveal" style="padding:0 20px;">
       <img src="/assets/review_4102.jpg" alt="Google review" loading="lazy" />
@@ -322,6 +321,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <p class="review-swipe-hint reveal" style="font-size:10px; color:rgba(24,20,12,.3); letter-spacing:.12em; text-align:right; margin-top:10px; padding:0 24px;">← swipe →</p>
   </section>
+  {% endif %}
 
   <!-- ⑦ TRIPADVISOR (全店共通) -->
   <section style="background:#faf8f4; padding:56px 24px; border-top:1px solid rgba(201,168,76,.15);">
