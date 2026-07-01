@@ -226,6 +226,34 @@
         "assets/hero_pontocho_1.jpg",
         "assets/hero_pontocho_2.jpg"
       ]
+    },
+    {
+      "slug": "arashiyama",
+      "region": "kyoto",
+      "floor": "2F",
+      "name_short": "Arashiyama",
+      "name_full_en": "Wagyu Steak & Hamburger (Halal Vegan Gluten free) Arashiyama",
+      "name_cn": "和牛牛排 汉堡 岚山",
+      "area_label": "ARASHIYAMA · KYOTO",
+      "city": "Kyoto",
+      "hero_headline_place": "Kyoto Arashiyama",
+      "station_en": "Arashiyama",
+      "station_note": "Saga, Ukyo-ku",
+      "hours": "11:00 — 19:00",
+      "hours_note": "Open Daily",
+      "hours_special": "",
+      "tel_display": "090-1180-7623",
+      "tel_raw": "819011807623",
+      "address_en": "2F, Arashiyama Matsumoto Building, 37-3 Saga Tenryuji Tsukurimichi-cho, Ukyo-ku, Kyoto-shi, Kyoto 616-8384, Japan",
+      "address_jp": "〒616-8384 京都府京都市右京区嵯峨天龍寺造路町３７−３ 嵐山まつもとビル 2階",
+      "instagram_url": "",
+      "maps_link": "https://maps.app.goo.gl/a631nd44vdsBEFZu6",
+      "maps_embed": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.65173791376475!2d135.6776938!3d35.0143079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a99212dffc35%3A0xf645c30a9a0b98e8!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBBcmFzaGl5YW1hIOWSjOeJm-eJm-aOkiDmsYnloKEg5bKa5bGx!5e1!3m2!1sja!2sjp!4v1782899640237!5m2!1sja!2sjp",
+      "tablecheck_url": "https://tablecheck.com/halal-wagyu-kyoto-arashiyama-annex/reserve",
+      "google_rating": "",
+      "google_count": "",
+      "google_rating_img": "assets/google_rating.jpg",
+      "hero_photos": []
     }
   ]
 }
