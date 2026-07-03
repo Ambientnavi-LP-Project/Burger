@@ -254,6 +254,34 @@
       "google_count": "",
       "google_rating_img": "assets/google_rating.jpg",
       "hero_photos": []
+    },
+    {
+      "slug": "nishiki-market",
+      "region": "kyoto",
+      "floor": "3F",
+      "name_short": "Nishiki Market",
+      "name_full_en": "Wagyu Hamburger Halal Kobe Beef Vegan Food Nishiki Market Restaurant",
+      "name_cn": "锦市场和牛餐厅",
+      "area_label": "NISHIKI MARKET · KYOTO",
+      "city": "Kyoto",
+      "hero_headline_place": "Kyoto Nishiki Market",
+      "station_en": "Nishiki Market",
+      "station_note": "Umeyacho, Nakagyo-ku",
+      "hours": "11:00 — 23:00",
+      "hours_note": "Open Daily",
+      "hours_special": "",
+      "tel_display": "070-4430-2059",
+      "tel_raw": "817044302059",
+      "address_en": "3F, 501 Umeyacho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8057, Japan",
+      "address_jp": "〒604-8057 京都府京都市中京区麩屋町通錦小路上る梅屋町５０１ 3F",
+      "instagram_url": "",
+      "maps_link": "",
+      "maps_embed": "",
+      "tablecheck_url": "",
+      "google_rating": "",
+      "google_count": "",
+      "google_rating_img": "assets/google_rating.jpg",
+      "hero_photos": []
     }
   ]
 }
