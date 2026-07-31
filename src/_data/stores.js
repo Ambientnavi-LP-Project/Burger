@@ -12,10 +12,28 @@
 //  保存 → GitHub にコミットすると、数分で自動的にサイトに反映されます。
 // ============================================================================
 //
+//  ■ 社内名称 → ページの対応表
+//
+//    このリポジトリ／サイトは burger.halal-food-wagyu.com です。
+//    社内名称は自由記入です。社内で呼んでいる名前をそのまま入れてください。
+//    （このリポジトリでは、同じ地名でフロア違いの別店舗があるため
+//      たまたま全店フロア付きになっています。付けるかどうかは店舗ごとに自由です）
+//
+//      浅草商店街1F   →  /tokyo/asakusa-shotengai/
+//      新大久保1F     →  /tokyo/shin-okubo/
+//      東銀座1F       →  /tokyo/higashi-ginza/
+//      お初天神1F     →  /osaka/ohatsu-tenjin/
+//      京都駅前1F     →  /kyoto/kyoto-station/
+//      京都河原町2F   →  /kyoto/kyoto-kawaramachi/
+//      清水坂1F       →  /kyoto/kiyomizuzaka/
+//      先斗町2F       →  /kyoto/pontocho/
+//      嵐山2F         →  /kyoto/arashiyama/
+//      錦市場3F       →  /kyoto/nishiki-market/
+//
 //  ■ 新しい店舗を追加する手順
 //
 //   1. 下の【コピペ用テンプレート】を丸ごとコピー
-//   2. このファイルの「店舗一覧」の一番下、"];" のすぐ上に貼り付け
+//   2. このファイルの一番下、いちばん最後の "};" のすぐ上に貼り付け
 //   3. 値を書き換えて保存
 //
 //  ■【コピペ用テンプレート】ここから ↓（// を外して使ってください）
@@ -24,6 +42,11 @@
 //   // ○○店   →  /tokyo/○○/
 //   // ─────────────────────────────────────────────
 //   {
+//     // --- 社内名称（社内での呼び名。ページには出ません）---
+//     internal_name: "渋谷",         // 社内で呼んでいる名前をそのまま入れてください（自由記入）
+//                                   //   「渋谷のLPを直して」と言えば店舗を特定できるようにするためのものです
+//                                   //   同じ地名で複数ある場合だけ "渋谷1F" のように区別が付く形にしてください
+//
 //     // --- 店名 ---
 //     name: "ここに店名（Googleマップの登録名をそのままコピー。英語＋中国語つなげたままでOK）",
 //     name_short: "ここに管理用の短い名前（例: Asakusa。ページには出ません）",
@@ -43,7 +66,6 @@
 //     address_en: "1-1 Shibuya 1-chome, Shibuya-ku, Tokyo 150-0002, Japan",  // ページに出る住所
 //     station_en: "Shibuya Station",      // 最寄り駅
 //     station_note: "Shibuya, Shibuya-ku",// 町名・区名
-//     floor: "1F",                        // 階数（現在ページには表示していません）
 //
 //     // --- 営業時間 ---
 //     hours: "11:00 — 23:00",             // 深夜1時までなら "11:00 — 25:00" と書きます
@@ -110,6 +132,9 @@ const stores = [
   // 浅草商店街店   →  /tokyo/asakusa-shotengai/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "浅草商店街1F",
+
     // --- 店名 ---
     name: "Wagyu Steak Hamburger (Halal Vegan Gluten Free) Asakusa Restaurant 浅草 和牛 餐厅",
     name_short: "Asakusa Shotengai",
@@ -128,7 +153,6 @@ const stores = [
     address_en: "26-4 Asakusa 2-chome, Taito-ku, Tokyo 111-0032, Japan",
     station_en: "Asakusa Station",
     station_note: "Asakusa, Taito-ku",
-    floor: "1F",
 
     // --- 営業時間 ---
     hours: "11:00 — 23:00",
@@ -167,6 +191,9 @@ const stores = [
   // 京都駅前店   →  /kyoto/kyoto-station/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "京都駅前1F",
+
     // --- 店名 ---
     name: "Wagyu Steak Hamburger (Halal Vegan Gluten Free) Kyoto Station Restaurant 京都 和牛 牛排",
     name_short: "Kyoto Ekimae",
@@ -185,11 +212,10 @@ const stores = [
     address_en: "3-31 Higashikujo Kitakarasuma-cho, Minami-ku, Kyoto-shi, Kyoto 601-8017, Japan",
     station_en: "JR Kyoto Station",
     station_note: "Higashikujo, Minami-ku",
-    floor: "1F",
 
     // --- 営業時間 ---
-    hours: "11:00 — 25:00",
-    hours_note: "Open Daily · until 1:00 AM",
+    hours: "8:00 — 25:00",
+    hours_note: "Open Daily · until 1:00 AM · Morning & Brunch 8:00 — 13:00",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
@@ -223,6 +249,9 @@ const stores = [
   // 京都河原町店   →  /kyoto/kyoto-kawaramachi/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "京都河原町2F",
+
     // --- 店名 ---
     name: "Kyoto Restaurant Wagyu Steak Hamburger (Halal Vegan Gluten Free) Kawaramachi 京都 和牛 牛排",
     name_short: "Kyoto Kawaramachi",
@@ -241,7 +270,6 @@ const stores = [
     address_en: "2F, 456 Matsugaecho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8034, Japan",
     station_en: "Kyoto Kawaramachi",
     station_note: "Matsugaecho, Nakagyo-ku",
-    floor: "2F",
 
     // --- 営業時間 ---
     hours: "11:00 — 25:00",
@@ -279,6 +307,9 @@ const stores = [
   // お初天神店   →  /osaka/ohatsu-tenjin/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "お初天神1F",
+
     // --- 店名 ---
     name: "Wagyu Steak & Hamburger (Halal Gluten Free) Osaka Station Restaurant",
     name_short: "Ohatsu Tenjin",
@@ -297,11 +328,10 @@ const stores = [
     address_en: "1F, MK Sonezaki Building, 2-14-5 Sonezaki, Kita-ku, Osaka-shi, Osaka 530-0057, Japan",
     station_en: "Osaka Station",
     station_note: "Sonezaki, Kita-ku",
-    floor: "1F",
 
     // --- 営業時間 ---
-    hours: "11:00 — 23:00",
-    hours_note: "Open Daily",
+    hours: "8:00 — 23:00",
+    hours_note: "Open Daily · Morning & Brunch 8:00 — 13:00",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
@@ -336,6 +366,9 @@ const stores = [
   // 新大久保店   →  /tokyo/shin-okubo/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "新大久保1F",
+
     // --- 店名 ---
     name: "Wagyu Steak & Hamburger Pizza (Halal Vegan Gluten Free) Kabuki Shin Okubo Restaurant 新宿 和牛 拉面 餐厅",
     name_short: "Shin-Okubo",
@@ -354,7 +387,6 @@ const stores = [
     address_en: "1F, 1-28 Hyakunincho 1-chome, Shinjuku-ku, Tokyo 169-0073, Japan",
     station_en: "Shin-Okubo",
     station_note: "Hyakunincho, Shinjuku-ku",
-    floor: "1F",
 
     // --- 営業時間 ---
     hours: "11:00 — 25:00",
@@ -392,6 +424,9 @@ const stores = [
   // 清水坂店   →  /kyoto/kiyomizuzaka/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "清水坂1F",
+
     // --- 店名 ---
     name: "Wagyu & Vegan Hamburger (Halal Gluten Free) 和牛汉堡 Kiyomizu Temple Restaurant",
     name_short: "Kiyomizuzaka",
@@ -410,7 +445,6 @@ const stores = [
     address_en: "1F, 145-1 Kiyomizu 4-chome, Higashiyama-ku, Kyoto-shi, Kyoto 605-0862, Japan",
     station_en: "Kiyomizu Temple",
     station_note: "Kiyomizu, Higashiyama-ku",
-    floor: "1F",
 
     // --- 営業時間 ---
     hours: "9:00 — 21:00",
@@ -448,6 +482,9 @@ const stores = [
   // 先斗町店   →  /kyoto/pontocho/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "先斗町2F",
+
     // --- 店名 ---
     name: "Wagyu Halal Hamburger & Steak Ponto Restaurant 京都 先斗町 和牛 餐厅",
     name_short: "Pontocho",
@@ -466,7 +503,6 @@ const stores = [
     address_en: "2F, 191-9 Shimokorikicho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8016, Japan",
     station_en: "Pontocho",
     station_note: "Shimokorikicho, Nakagyo-ku",
-    floor: "2F",
 
     // --- 営業時間 ---
     hours: "11:00 — 23:00",
@@ -504,6 +540,9 @@ const stores = [
   // 嵐山店   →  /kyoto/arashiyama/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "嵐山2F",
+
     // --- 店名 ---
     name: "Wagyu Steak & Hamburger (Halal Vegan Gluten free) Arashiyama 和牛牛排 汉堡 岚山",
     name_short: "Arashiyama",
@@ -522,7 +561,6 @@ const stores = [
     address_en: "2F, Arashiyama Matsumoto Building, 37-3 Saga Tenryuji Tsukurimichi-cho, Ukyo-ku, Kyoto-shi, Kyoto 616-8384, Japan",
     station_en: "Arashiyama",
     station_note: "Saga, Ukyo-ku",
-    floor: "2F",
 
     // --- 営業時間 ---
     hours: "11:00 — 19:00",
@@ -557,6 +595,9 @@ const stores = [
   // 錦市場店   →  /kyoto/nishiki-market/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "錦市場3F",
+
     // --- 店名 ---
     name: "Wagyu Hamburger Halal Kobe Beef Vegan Food Nishiki Market Restaurant 锦市场和牛餐厅",
     name_short: "Nishiki Market",
@@ -575,7 +616,6 @@ const stores = [
     address_en: "3F, 501 Umeyacho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8057, Japan",
     station_en: "Nishiki Market",
     station_note: "Umeyacho, Nakagyo-ku",
-    floor: "3F",
 
     // --- 営業時間 ---
     hours: "11:00 — 23:00",
@@ -610,6 +650,9 @@ const stores = [
   // 東銀座店   →  /tokyo/higashi-ginza/
   // ─────────────────────────────────────────────
   {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "東銀座1F",
+
     // --- 店名 ---
     name: "Japanese Food Wagyu Beef (Halal) Ramen Hamburger Ginza Restaurant 5W-Tokyo (东京和牛拉麺)",
     name_short: "Ginza",
@@ -628,11 +671,10 @@ const stores = [
     address_en: "12-16 Ginza 3-chome, Chuo-ku, Tokyo 104-0061, Japan",
     station_en: "Higashi-Ginza Station",
     station_note: "Ginza, Chuo-ku",
-    floor: "1F",
 
     // --- 営業時間 ---
     hours: "8:00 — 25:00",
-    hours_note: "Open Daily · until 1:00 AM",
+    hours_note: "Open Daily · until 1:00 AM · Morning & Brunch 8:00 — 13:00",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
