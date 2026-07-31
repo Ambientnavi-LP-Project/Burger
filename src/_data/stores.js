@@ -527,7 +527,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "",
+    tablecheck_url: "https://tablecheck.com/halal-wagyu-kyoto-ponto/reserve",
     maps_link: "https://maps.app.goo.gl/AUdW6VdgHGQYwJAf7",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.002921492206!2d135.7709998!3d35.00676610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109f8ec8e546d%3A0xb4bace007b0c3c15!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyICYgU3RlYWsgUG9udG8gUmVzdGF1cmFudCDkuqzpg70g5YWI5paX55S6IOWSjOeJmyDppJDljoU!5e1!3m2!1sja!2sjp!4v1778841232824!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -643,8 +643,8 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
-    maps_link: "",
-    maps_embed: "",
+    maps_link: "https://maps.app.goo.gl/pBA2XjY1NKAEfoEo6",
+    maps_embed: "https://www.google.com/maps?q=Wagyu+Hamburger+Halal+Kobe+Beef+Vegan+Food+Nishiki+Market+Restaurant&output=embed",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
