@@ -83,6 +83,7 @@
 //                                         //   03-1234-5678 → 81312345678
 //
 //     // --- リンク ---
+//     reserve_system: "tablecheck",       // 予約導線の種類。このLPは全店 "tablecheck" のままでOK
 //     tablecheck_url: "",                 // TableCheckの予約URL。無ければ "" （電話予約ボタンになります）
 //     maps_link: "",                      // Googleマップの共有URL（https://maps.app.goo.gl/... ）
 //     maps_embed: "",                     // Googleマップ「地図を埋め込む」で出る <iframe src="..."> の
@@ -169,6 +170,7 @@ const stores = [
     tel_raw: "81338448764",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/shops/wagyu-burger-steak-teriyaki-5w-tokyo/reserve",
     maps_link: "https://maps.app.goo.gl/fXbRutAYbfwRURvb8",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3041.1465698468437!2d139.7915157!3d35.7166131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188f7f6725d0bf%3A0x39af2212744db3fa!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgQXNha3VzYSBSZXN0YXVyYW50IOa1heiNiSDlkozniZsg6aSQ5Y6F!5e1!3m2!1sja!2sjp!4v1778839909309!5m2!1sja!2sjp",
@@ -228,6 +230,7 @@ const stores = [
     tel_raw: "818029830026",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/shops/5wkyotostation/reserve",
     maps_link: "https://maps.app.goo.gl/FWXEbcpzn2UBsP5R9",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.80962803300258!2d135.758567!3d34.9813969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010914c6123c99%3A0xce2cb01951e322a2!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgS3lvdG8gU3RhdGlvbiBSZXN0YXVyYW50IOS6rOmDvSDlkozniZsg54mb5o6S!5e1!3m2!1sja!2sjp!4v1778840662153!5m2!1sja!2sjp",
@@ -286,6 +289,7 @@ const stores = [
     tel_raw: "819072626058",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/shops/5wkawaramachi/reserve",
     maps_link: "https://maps.app.goo.gl/nANKvRW8xDvM6DC2A",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.972209755835!2d135.7679637!3d35.007585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109eb0b6e9e0d%3A0x396abcf92231069c!2zS3lvdG8gUmVzdGF1cmFudCBXYWd5dSBTdGVhayBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYXdhcmFtYWNoaSDkuqzpg70g5ZKM54mbIOeJm-aOkg!5e1!3m2!1sja!2sjp!4v1778840775753!5m2!1sja!2sjp",
@@ -344,6 +348,7 @@ const stores = [
     tel_raw: "819024110668",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-ohatsutennjin/reserve",
     maps_link: "https://maps.app.goo.gl/ycVUMzupbrTkH5K49",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d208.43404903499732!2d135.50131916090282!3d34.70092857295818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e737d3d79fad%3A0x34aa836911c15bd3!2sWagyu%20Steak%20%26%20Hamburger%20(Halal%20Gluten%20Free)%20Osaka%20Station%20Restaurant!5e1!3m2!1sja!2sjp!4v1778840872907!5m2!1sja!2sjp",
@@ -403,6 +408,7 @@ const stores = [
     tel_raw: "819022657102",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-shinokubo-5w-tokyo/reserve",
     maps_link: "https://maps.app.goo.gl/ENuVfdJZuARJvQjn7",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d760.4621575436136!2d139.7020532!3d35.698213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0a84c996ff%3A0xa473959440d7db81!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgUGl6emEgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYWJ1a2kgU2hpbiBPa3VibyBSZXN0YXVyYW50IOaWsOWuvyDlkozniZsg5ouJ6Z2iIOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1778840962512!5m2!1sja!2sjp",
@@ -461,6 +467,7 @@ const stores = [
     tel_raw: "817035246548",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-kiyomizuzaka/reserve",
     maps_link: "https://maps.app.goo.gl/wjXaMLqBmmHEDqQH8",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.7720639052673!2d135.7774029!3d34.9974298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001096c31b78bf7%3A0xa3d8830499cb8d38!2sWagyu%20%26%20Vegan%20Hamburger%20(Halal%20Gluten%20Free)%20%E5%92%8C%E7%89%9B%E6%B1%89%E5%A0%A1%20Kiyomizu%20Temple%20Restaurant!5e1!3m2!1sja!2sjp!4v1778841131814!5m2!1sja!2sjp",
@@ -519,6 +526,7 @@ const stores = [
     tel_raw: "818062950185",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/AUdW6VdgHGQYwJAf7",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.002921492206!2d135.7709998!3d35.00676610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109f8ec8e546d%3A0xb4bace007b0c3c15!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyICYgU3RlYWsgUG9udG8gUmVzdGF1cmFudCDkuqzpg70g5YWI5paX55S6IOWSjOeJmyDppJDljoU!5e1!3m2!1sja!2sjp!4v1778841232824!5m2!1sja!2sjp",
@@ -577,6 +585,7 @@ const stores = [
     tel_raw: "819011807623",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://tablecheck.com/halal-wagyu-kyoto-arashiyama-annex/reserve",
     maps_link: "https://maps.app.goo.gl/a631nd44vdsBEFZu6",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.65173791376475!2d135.6776938!3d35.0143079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a99212dffc35%3A0xf645c30a9a0b98e8!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBBcmFzaGl5YW1hIOWSjOeJm-eJm-aOkiDmsYnloKEg5bKa5bGx!5e1!3m2!1sja!2sjp!4v1782899640237!5m2!1sja!2sjp",
@@ -632,6 +641,7 @@ const stores = [
     tel_raw: "817044302059",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
     maps_link: "",
     maps_embed: "",
@@ -687,6 +697,7 @@ const stores = [
     tel_raw: "81362787139",
 
     // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/shops/halal-wagyu-ginza-5w-tokyo/reserve",
     maps_link: "https://maps.app.goo.gl/DyQunnGLgQuuQmcY8",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7478.453910310958!2d139.768631!3d35.671435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8a1b1f7ca7%3A0x8d81bba28006abf!2zSmFwYW5lc2UgRm9vZCBXYWd5dSBCZWVmIChIYWxhbCkgUmFtZW4gSGFtYnVyZ2VyIEdpbnphIFJlc3RhdXJhbnQgNVctVG9reW8gKOS4nOS6rOWSjOeJm-aLiem6uik!5e1!3m2!1sja!2sjp!4v1785475907515!5m2!1sja!2sjp",

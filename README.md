@@ -199,7 +199,43 @@ GitHub でファイルを開き、右上の **History** から前のバージョ
 
 ---
 
-## 10. 開発者向けメモ
+## 10. 計測イベント一覧
+
+このLPで実際に実装しているイベントです。
+計測は **GTM コンテナ `GTM-5DGT9H6L`** 1本に集約しています。
+
+| イベント名 | 発火する場所 | 実装 |
+|---|---|---|
+| `reserve_click` | ヒーロー／アクセス欄／フッターの「Reserve a Table」「RESERVATION」（TableCheckへの外部リンク） | `data-ga-event="reserve_click"` |
+| `tel_click` | アクセス欄の電話番号リンク、および `tablecheck_url` が空の店舗で表示される「Call to Reserve」「CALL」 | `data-ga-event="tel_click"` |
+| `map_click` | ヒーロー／アクセス欄の「Get Directions」、フッターの「MAPS」（Googleマップへの外部リンク） | `data-ga-event="map_click"` |
+| `outbound_click` | フッターの「INSTAGRAM」 | `data-ga-event="outbound_click"` |
+| `scroll_depth` | ページのスクロール到達率 | GTM組み込みトリガー（コード実装なし） |
+
+### 仕組み
+
+計測方式は **1つだけ**です。計測したい要素に `data-ga-event="イベント名"` を付けると、
+ページ末尾の委譲リスナー1本が `dataLayer` に push します。
+
+```js
+window.dataLayer.push({ event: el.getAttribute('data-ga-event') });
+```
+
+店舗名・エリア・チャネルなどの**パラメータはコード側で組み立てません**。
+GTM 側で URL（ホスト名／パス）から解決します。
+そのため `stores.js` に店舗を追加しても、計測用の設定を書き足す必要はありません。
+
+### 実装していないもの
+
+- **地図の埋め込み（iframe）**は計測対象外です。ブラウザの仕様上、iframe 内部のクリックは
+  親ページの JavaScript では検知できません。地図の反応は「Get Directions」「MAPS」リンクで見てください。
+- `reservation_form_submit` / `final_check_view` は自社予約フォームを使うLP用のイベントです。
+  このLPは TableCheck への外部遷移のみのため、実装していません。
+- `course_select` はコース選択UIがあるLP用のイベントです。このLPにはコース選択UIがありません。
+
+---
+
+## 11. 開発者向けメモ
 
 - Eleventy 3 / Nunjucks。`src/store.njk` が `pagination` で全店舗ぶんを生成
 - `package.json` は `"type": "module"` のため、`stores.js` は **ESM**

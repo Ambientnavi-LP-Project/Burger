@@ -180,8 +180,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </p>
 
       <div class="reveal d4" style="display:flex; flex-direction:column; gap:12px;">
-        {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary"><span data-i18n="cta_directions">Get Directions</span></a>{% endif %}
-        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" class="btn-secondary" style="color:#f5ede0; border-color:rgba(245,237,224,.35);"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
+        {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary" data-ga-event="map_click"><span data-i18n="cta_directions">Get Directions</span></a>{% endif %}
+        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" class="btn-secondary" style="color:#f5ede0; border-color:rgba(245,237,224,.35);" data-ga-event="reserve_click"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary" data-ga-event="tel_click"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
       </div>
     </div>
 
@@ -489,7 +489,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="info-icon">☎</span>
           <div>
             <p style="font-size:10px; color:rgba(24,20,12,.4); letter-spacing:.12em; margin-bottom:4px;" data-i18n="info_phone">PHONE</p>
-            <p style="font-size:13px; font-weight:300;"><a href="tel:+{{ store.tel_raw }}" style="color:inherit; text-decoration:none;">{{ store.tel_display }}</a></p>
+            <p style="font-size:13px; font-weight:300;"><a href="tel:+{{ store.tel_raw }}" style="color:inherit; text-decoration:none;" data-ga-event="tel_click">{{ store.tel_display }}</a></p>
           </div>
         </div>
         <div class="info-row reveal d4" style="border:1px solid rgba(201,168,76,.2); background:rgba(201,168,76,.04);">
@@ -503,8 +503,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="reveal" style="display:flex; flex-direction:column; gap:12px;">
-        {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary"><span data-i18n="cta_directions">Get Directions</span></a>{% endif %}
-        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" class="btn-secondary"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
+        {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary" data-ga-event="map_click"><span data-i18n="cta_directions">Get Directions</span></a>{% endif %}
+        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" class="btn-secondary" data-ga-event="reserve_click"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary" data-ga-event="tel_click"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
       </div>
     </div>
   </section>
@@ -515,9 +515,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </p>
     <p style="font-size:10px; color:rgba(245,237,224,.32); letter-spacing:.28em; margin-bottom:22px;" data-i18n="footer_tagline">EST. 1962 &nbsp;·&nbsp; 5TH GEN. BUTCHER</p>
     <div style="display:flex; justify-content:center; gap:28px;">
-      {% if store.instagram_url %}<a href="{{ store.instagram_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_instagram">INSTAGRAM</a>{% endif %}
-      {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_reservation">RESERVATION</a>{% else %}<a href="tel:+{{ store.tel_raw }}" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_call">CALL</a>{% endif %}
-      {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_maps">MAPS</a>{% endif %}
+      {% if store.instagram_url %}<a href="{{ store.instagram_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_instagram" data-ga-event="outbound_click">INSTAGRAM</a>{% endif %}
+      {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_reservation" data-ga-event="reserve_click">RESERVATION</a>{% else %}<a href="tel:+{{ store.tel_raw }}" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_call" data-ga-event="tel_click">CALL</a>{% endif %}
+      {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_maps" data-ga-event="map_click">MAPS</a>{% endif %}
     </div>
   </footer>
 
@@ -851,6 +851,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         slides[i].classList.add('is-active');
       }, 3000);
     });
+  </script>
+
+  <script>
+    /* === クリック計測（data-ga-event → dataLayer → GTM → GA4）===
+       計測したい要素に data-ga-event="イベント名" を付けるだけ。
+       店舗・チャネル等のパラメータはコード側で組み立てず、GTM側でURLから解決する。 */
+    window.dataLayer = window.dataLayer || [];
+    document.addEventListener('click', function (e) {
+      var el = e.target.closest('[data-ga-event]');
+      if (!el) return;
+      window.dataLayer.push({ event: el.getAttribute('data-ga-event') });
+    }, true);
   </script>
 </body>
 </html>
