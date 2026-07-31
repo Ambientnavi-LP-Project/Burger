@@ -15,7 +15,11 @@ const defaults = {
   google_rating: "",
   google_count: "",
   google_rating_img: "assets/google_rating.jpg",
-  tripadvisor_img: "assets/tripadvisor.jpg"
+  tripadvisor_img: "assets/tripadvisor.jpg",
+  // モーニング（朝食・ブランチ）セクション。morning: true の店舗だけ表示される
+  morning: false,
+  morning_hours: "",
+  morning_note: ""
 };
 
 const stores = [
@@ -69,6 +73,10 @@ const stores = [
     hours: "11:00 — 25:00",
     hours_note: "Open Daily · until 1:00 AM",
     hours_special: "",
+    // ===== モーニング（朝食・ブランチ）=====
+    morning: true,
+    morning_hours: "7:00 — 11:30",
+    morning_note: "L.O. 11:00",
     tel_display: "080-2983-0026",
     tel_raw: "818029830026",
     address_en: "3-31 Higashikujo Kitakarasuma-cho, Minami-ku, Kyoto-shi, Kyoto 601-8017, Japan",
@@ -135,6 +143,10 @@ const stores = [
     hours: "11:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
+    // ===== モーニング（朝食・ブランチ）=====
+    morning: true,
+    morning_hours: "7:00 — 11:30",
+    morning_note: "L.O. 11:00",
     tel_display: "090-2411-0668",
     tel_raw: "819024110668",
     address_en: "1F, MK Sonezaki Building, 2-14-5 Sonezaki, Kita-ku, Osaka-shi, Osaka 530-0057, Japan",
@@ -312,9 +324,9 @@ const stores = [
     hero_photos: []
   },
 
-  // ===== Ginza (tokyo/ginza) =====
+  // ===== Ginza (tokyo/higashi-ginza) =====
   {
-    slug: "ginza",
+    slug: "higashi-ginza",
     region: "tokyo",
     floor: "1F",
     name_short: "Ginza",
@@ -328,6 +340,10 @@ const stores = [
     hours: "8:00 — 25:00",
     hours_note: "Open Daily · until 1:00 AM",
     hours_special: "",
+    // ===== モーニング（朝食・ブランチ）=====
+    morning: true,
+    morning_hours: "7:00 — 11:30",
+    morning_note: "L.O. 11:00",
     tel_display: "03-6278-7139",
     tel_raw: "81362787139",
     address_en: "12-16 Ginza 3-chome, Chuo-ku, Tokyo 104-0061, Japan",

@@ -3,5 +3,12 @@
   "outputDirectory": "_site",
   "framework": null,
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/tokyo/ginza",
+      "destination": "/tokyo/higashi-ginza",
+      "permanent": true
+    }
+  ]
 }
