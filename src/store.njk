@@ -329,14 +329,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div style="text-align:center; margin-bottom:28px;">
         <p class="label reveal" style="margin-bottom:12px;">TRIPADVISOR</p>
         <h2 class="reveal" style="font-family:'Bebas Neue'; font-size:clamp(1.4rem,5vw,2rem); font-weight:600; line-height:1.3;">
-          On August 17, 2025, our Ginza flagship store ranked<br/>
+          On August 17, 2025, {% if store.slug == "ginza" %}this Ginza flagship store{% else %}our Ginza flagship store{% endif %} ranked<br/>
           <em style="color:#c9a84c; font-style:normal;">No.1</em> in the Gourmet &amp; Restaurant category<br/>in Central Tokyo on Tripadvisor.
         </h2>
         <span class="gold-rule reveal"></span>
       </div>
+      {% if store.tripadvisor_img %}
       <div class="reveal">
         <img src="/{{ store.tripadvisor_img }}" alt="Tripadvisor Tokyo No.1 Ranking — Ginza Flagship Store" loading="lazy" style="width:100%; border-radius:8px; display:block;" />
       </div>
+      {% endif %}
     </div>
   </section>
 
@@ -463,7 +465,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </p>
     <p style="font-size:10px; color:rgba(245,237,224,.32); letter-spacing:.28em; margin-bottom:22px;">EST. 1962 &nbsp;·&nbsp; 5TH GEN. BUTCHER</p>
     <div style="display:flex; justify-content:center; gap:28px;">
-      <a href="{{ store.instagram_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">INSTAGRAM</a>
+      {% if store.instagram_url %}<a href="{{ store.instagram_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">INSTAGRAM</a>{% endif %}
       {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_source=lp&utm_medium=referral" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">RESERVATION</a>{% else %}<a href="tel:+{{ store.tel_raw }}" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">CALL</a>{% endif %}
       {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;">MAPS</a>{% endif %}
     </div>
