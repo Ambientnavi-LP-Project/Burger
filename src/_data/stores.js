@@ -729,7 +729,7 @@ const stores = [
 
     // --- ページ内の地名表示 ---
     area_label: "FUSHIMI · KYOTO",
-    city: "Fushimi,
+    city: "Fushimi",
     hero_headline_place: "Kyoto's Fushimi",
 
     // --- 住所・最寄り駅 ---
