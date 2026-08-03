@@ -216,13 +216,13 @@ const stores = [
     station_note: "Higashikujo, Minami-ku",
 
     // --- 営業時間 ---
-    hours: "8:00 — 25:00",
-    hours_note: "Open Daily · until 1:00 AM · Morning & Brunch 8:00 — 13:00",
+    hours: "7:00 — 25:00",
+    hours_note: "Open Daily · until 1:00 AM · Morning & Brunch 7:00 — 13:00",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
     morning: true,
-    morning_hours: "8:00 — 13:00",
+    morning_hours: "7:00 — 13:00",
     morning_note: "L.O. 12:30",
 
     // --- 電話番号 ---
@@ -334,13 +334,13 @@ const stores = [
     station_note: "Sonezaki, Kita-ku",
 
     // --- 営業時間 ---
-    hours: "8:00 — 23:00",
-    hours_note: "Open Daily · Morning & Brunch 8:00 — 13:00",
+    hours: "7:00 — 23:00",
+    hours_note: "Open Daily · Morning & Brunch 7:00 — 13:00",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
     morning: true,
-    morning_hours: "8:00 — 13:00",
+    morning_hours: "7:00 — 13:00",
     morning_note: "L.O. 12:30",
 
     // --- 電話番号 ---
