@@ -711,6 +711,62 @@ const stores = [
     // --- ヒーロー写真 ---
     hero_photos: [],
   },
+
+  // ─────────────────────────────────────────────
+  // 伏見稲荷店   →  /kyoto/fushimi-inari/
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "伏見稲荷1F",
+
+    // --- 店名 ---
+    name: "Wagyu Steak Hamburger Halal Kobe Beef Vegan Fushimi Inari Restaurant 和牛伏见稻荷餐厅",
+    name_short: "Fushimi-inari",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "kyoto",
+    slug: "fushimi-inari",
+
+    // --- ページ内の地名表示 ---
+    area_label: "FUSHIMI · KYOTO",
+    city: "Fushimi,
+    hero_headline_place: "Kyoto's Fushimi",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒612-0806 京都府京都市伏見区深草開土町２０ 1F",
+    address_en: "1F, 20 Fukakusa Kaidocho, Fushimi-ku, Kyoto 612-0806, Japan",
+    station_en: "Inari Station,Fushimi-Inari Station",
+    station_note: "Kaidocho, Fushimi-ku",
+
+    // --- 営業時間 ---
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "080-2147-5290",
+    tel_raw: "818021475290",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
+    tablecheck_url: "",
+    maps_link: "",
+    maps_embed: "",
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
 ];
 
 // ============================================================================
