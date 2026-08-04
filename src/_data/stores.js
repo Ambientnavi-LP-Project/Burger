@@ -637,8 +637,8 @@ const stores = [
     morning_note: "",
 
     // --- 電話番号 ---
-    tel_display: "070-4430-2059",
-    tel_raw: "817044302059",
+    tel_display: "080-1477-1038",
+    tel_raw: "818014771038",
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
