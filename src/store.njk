@@ -102,6 +102,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .review-card:nth-child(even) { border-left-color: #c9a84c; }
     .info-row { display: flex; gap: 14px; align-items: flex-start; background: #ece8df; padding: 16px; border-radius: 3px; }
     .info-icon { color: #c9a84c; font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+    /* 曜日別の営業時間（hours_lines を書いた店舗のみ） */
+    .hours-line { display: flex; gap: 10px; align-items: baseline; margin-bottom: 3px; }
+    .hours-line .hours-days { flex: 0 0 78px; font-size: 10px; letter-spacing: .1em; color: rgba(24,20,12,.45); }
+    .hours-line .hours-time { font-size: 13px; font-weight: 300; }
     .wagyu-text-wrap { max-width: 360px; }
     @media (min-width: 768px) { .wagyu-text-wrap { max-width: 860px; } }
     .google-rating-block { display: flex; flex-direction: column; gap: 20px; }
@@ -491,7 +495,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <span class="info-icon">—</span>
           <div>
             <p style="font-size:10px; color:rgba(24,20,12,.4); letter-spacing:.12em; margin-bottom:4px;" data-i18n="info_hours">HOURS</p>
+            {% if store.hours_lines and store.hours_lines.length %}
+            {% for line in store.hours_lines %}
+            <div class="hours-line"><span class="hours-days">{{ line.days }}</span><span class="hours-time">{{ line.time }}</span></div>
+            {% endfor %}
+            {% else %}
             <p style="font-size:13px; font-weight:300; margin-bottom:3px;">{{ store.hours }}</p>
+            {% endif %}
             <p style="font-size:11px; color:rgba(24,20,12,.5);">{{ store.hours_note }}{% if store.hours_special %} · {{ store.hours_special }}{% endif %}</p>
           </div>
         </div>
