@@ -446,7 +446,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span class="info-icon">☀</span>
         <div>
           <p style="font-size:10px; color:rgba(201,168,76,.8); letter-spacing:.14em; margin-bottom:4px;" data-i18n="morning_hours_label">MORNING HOURS</p>
+          {% if store.morning_lines and store.morning_lines.length %}
+          {% for line in store.morning_lines %}
+          <div class="hours-line"><span class="hours-days">{{ line.days }}</span><span class="hours-time">{{ line.time }}</span></div>
+          {% endfor %}
+          {% if store.morning_note %}<div class="hours-line"><span class="hours-days"></span><span class="hours-time">{{ store.morning_note }}</span></div>{% endif %}
+          {% else %}
           <p style="font-size:13px; font-weight:300; margin-bottom:3px;">{{ store.morning_hours }}{% if store.morning_note %} · {{ store.morning_note }}{% endif %}</p>
+          {% endif %}
           <p style="font-size:11px; color:rgba(24,20,12,.5);" data-i18n="morning_hours_note">Breakfast &amp; brunch menu · Walk-ins welcome</p>
         </div>
       </div>
