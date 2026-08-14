@@ -72,10 +72,25 @@
 //     hours_note: "Open Daily",           // 補足（例: "Open Daily · until 1:00 AM"）
 //     hours_special: "",                  // 特定曜日だけ違う場合のみ記入。無ければ ""
 //
+//     // --- 曜日ごとに時間が違う場合だけ書きます（同じなら書かなくてOK）---
+//     hours_lines: [],                    // 例: 金土日だけ7時開店、月〜木は8時開店のとき
+//                                         //   hours_lines: [
+//                                         //     { days: "Fri – Sun", time: "7:00 — 25:00" },
+//                                         //     { days: "Mon – Thu", time: "8:00 — 25:00" },
+//                                         //   ],
+//                                         //   ※ 書くと HOURS 欄が曜日ごとの2行表示になります
+//                                         //   ※ 空 [] のままなら、上の hours がそのまま1行で出ます
+//
 //     // --- モーニング（朝食・ブランチ）---
 //     morning: false,                     // モーニングがある店だけ true に変える
 //     morning_hours: "",                  // 例: "8:00 — 13:00"
 //     morning_note: "",                   // 例: "L.O. 12:30"
+//     morning_lines: [],                  // モーニングも曜日で時間が違う場合だけ書きます
+//                                         //   morning_lines: [
+//                                         //     { days: "Fri – Sun", time: "7:00 — 13:00" },
+//                                         //     { days: "Mon – Thu", time: "8:00 — 13:00" },
+//                                         //   ],
+//                                         //   ※ 空 [] のままなら morning_hours が1行で出ます
 //
 //     // --- 電話番号 ---
 //     tel_display: "03-1234-5678",        // 画面に表示される番号（ハイフンあり）
@@ -121,6 +136,8 @@ const defaults = {
   morning: false,
   morning_hours: "",
   morning_note: "",
+  hours_lines: [],     // 曜日ごとに営業時間が違う店だけ、店舗側で上書きします
+  morning_lines: [],   // 曜日ごとにモーニング時間が違う店だけ、店舗側で上書きします
 };
 
 const domain = "https://burger.halal-food-wagyu.com";
@@ -683,14 +700,26 @@ const stores = [
     station_note: "Ginza, Chuo-ku",
 
     // --- 営業時間 ---
-    hours: "8:00 — 25:00",
-    hours_note: "Open Daily · until 1:00 AM · Morning & Brunch 8:00 — 13:00",
+    hours: "7:00 — 25:00",
+    hours_note: "Open Daily · until 1:00 AM · Morning & Brunch until 13:00",
     hours_special: "",
+
+    // --- 曜日ごとの営業時間（金土日は7時開店、月〜木は8時開店） ---
+    hours_lines: [
+      { days: "Fri – Sun", time: "7:00 — 25:00" },
+      { days: "Mon – Thu", time: "8:00 — 25:00" },
+    ],
 
     // --- モーニング（朝食・ブランチ） ---
     morning: true,
-    morning_hours: "8:00 — 13:00",
+    morning_hours: "7:00 — 13:00",
     morning_note: "L.O. 12:30",
+
+    // --- 曜日ごとのモーニング時間（金土日は7時から、月〜木は8時から） ---
+    morning_lines: [
+      { days: "Fri – Sun", time: "7:00 — 13:00" },
+      { days: "Mon – Thu", time: "8:00 — 13:00" },
+    ],
 
     // --- 電話番号 ---
     tel_display: "03-6278-7139",
