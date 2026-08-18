@@ -196,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="reveal d4" style="display:flex; flex-direction:column; gap:12px;">
         {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary" data-ga-event="map_click"><span data-i18n="cta_directions">Get Directions</span></a>{% endif %}
-        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_content=lp_cta" target="_blank" rel="noopener" class="btn-secondary" style="color:#f5ede0; border-color:rgba(245,237,224,.35);" data-ga-event="reserve_click"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary" data-ga-event="tel_click"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
+        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}" target="_blank" rel="noopener" class="btn-secondary" style="color:#f5ede0; border-color:rgba(245,237,224,.35);" data-ga-event="reserve_click"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary" data-ga-event="tel_click"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
       </div>
     </div>
 
@@ -532,7 +532,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="reveal" style="display:flex; flex-direction:column; gap:12px;">
         {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" class="btn-primary" data-ga-event="map_click"><span data-i18n="cta_directions">Get Directions</span></a>{% endif %}
-        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_content=lp_cta" target="_blank" rel="noopener" class="btn-secondary" data-ga-event="reserve_click"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary" data-ga-event="tel_click"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
+        {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}" target="_blank" rel="noopener" class="btn-secondary" data-ga-event="reserve_click"><span data-i18n="cta_reserve">Reserve a Table</span></a>{% else %}<a href="tel:+{{ store.tel_raw }}" class="btn-primary" data-ga-event="tel_click"><span data-i18n="cta_call">Call to Reserve</span></a>{% endif %}
       </div>
     </div>
   </section>
@@ -544,7 +544,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p style="font-size:10px; color:rgba(245,237,224,.32); letter-spacing:.28em; margin-bottom:22px;" data-i18n="footer_tagline">EST. 1962 &nbsp;·&nbsp; 5TH GEN. BUTCHER</p>
     <div style="display:flex; justify-content:center; gap:28px;">
       {% if store.instagram_url %}<a href="{{ store.instagram_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_instagram" data-ga-event="outbound_click">INSTAGRAM</a>{% endif %}
-      {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}?utm_content=lp_cta" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_reservation" data-ga-event="reserve_click">RESERVATION</a>{% else %}<a href="tel:+{{ store.tel_raw }}" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_call" data-ga-event="tel_click">CALL</a>{% endif %}
+      {% if store.tablecheck_url %}<a href="{{ store.tablecheck_url }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_reservation" data-ga-event="reserve_click">RESERVATION</a>{% else %}<a href="tel:+{{ store.tel_raw }}" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_call" data-ga-event="tel_click">CALL</a>{% endif %}
       {% if store.maps_link %}<a href="{{ store.maps_link }}" target="_blank" rel="noopener" style="font-size:10px; color:rgba(245,237,224,.32); text-decoration:none; letter-spacing:.14em;" data-i18n="footer_maps" data-ga-event="map_click">MAPS</a>{% endif %}
     </div>
   </footer>
