@@ -622,7 +622,7 @@ const stores = [
   // ─────────────────────────────────────────────
   {
     // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
-    internal_name: "錦市場3F",
+    internal_name: "錦市場1F",
 
     // --- 店名 ---
     name: "Wagyu Hamburger Halal Kobe Beef Vegan Food Nishiki Market Restaurant 锦市场和牛餐厅",
@@ -638,13 +638,13 @@ const stores = [
     hero_headline_place: "Kyoto Nishiki Market",
 
     // --- 住所・最寄り駅 ---
-    address_jp: "〒604-8057 京都府京都市中京区麩屋町通錦小路上る梅屋町５０１ 3F",
-    address_en: "3F, 501 Umeyacho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8057, Japan",
+    address_jp: "〒604-8057 京都府京都市中京区麩屋町通錦小路上る梅屋町５０１ 1F",
+    address_en: "1F, 501 Umeyacho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8057, Japan",
     station_en: "Nishiki Market",
     station_note: "Umeyacho, Nakagyo-ku",
 
     // --- 営業時間 ---
-    hours: "11:00 — 23:00",
+    hours: "7:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
