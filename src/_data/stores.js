@@ -351,14 +351,14 @@ const stores = [
     station_note: "Sonezaki, Kita-ku",
 
     // --- 営業時間 ---
-    hours: "8:00 — 23:00",
-    hours_note: "Open Daily · Morning & Brunch 7:00 — 13:00",
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily · until 1:00 AM",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
-    morning: true,
-    morning_hours: "8:00 — 13:00",
-    morning_note: "L.O. 12:30",
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
 
     // --- 電話番号 ---
     tel_display: "090-2411-0668",
