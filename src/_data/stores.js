@@ -193,7 +193,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/wagyu-burger-steak-teriyaki-5w-tokyo/reserve/message",
     maps_link: "https://maps.app.goo.gl/fXbRutAYbfwRURvb8",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3041.1465698468437!2d139.7915157!3d35.7166131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188f7f6725d0bf%3A0x39af2212744db3fa!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgQXNha3VzYSBSZXN0YXVyYW50IOa1heiNiSDlkozniZsg6aSQ5Y6F!5e1!3m2!1sja!2sjp!4v1778839909309!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3041.1465698468437!2d139.7915157!3d35.7166131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188f7f6725d0bf%3A0x39af2212744db3fa!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgQXNha3VzYSBSZXN0YXVyYW50IOa1heiNiSDlkozniZsg6aSQ5Y6F!5e0!3m2!1sja!2sjp!4v1778839909309!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/asakusa_5w_tokyo?igsh=MWtucGx3eHZ0b2h0aQ==",
 
     // --- Googleレビュー ---
@@ -253,7 +253,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/5wkyotostation/reserve/message",
     maps_link: "https://maps.app.goo.gl/FWXEbcpzn2UBsP5R9",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.80962803300258!2d135.758567!3d34.9813969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010914c6123c99%3A0xce2cb01951e322a2!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgS3lvdG8gU3RhdGlvbiBSZXN0YXVyYW50IOS6rOmDvSDlkozniZsg54mb5o6S!5e1!3m2!1sja!2sjp!4v1778840662153!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.80962803300258!2d135.758567!3d34.9813969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010914c6123c99%3A0xce2cb01951e322a2!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgS3lvdG8gU3RhdGlvbiBSZXN0YXVyYW50IOS6rOmDvSDlkozniZsg54mb5o6S!5e0!3m2!1sja!2sjp!4v1778840662153!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/kyoto_beeftei?igsh=MWh0cXF3ajY3ZGZmNw==",
 
     // --- Googleレビュー ---
@@ -312,7 +312,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/5wkawaramachi/reserve/message",
     maps_link: "https://maps.app.goo.gl/nANKvRW8xDvM6DC2A",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.972209755835!2d135.7679637!3d35.007585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109eb0b6e9e0d%3A0x396abcf92231069c!2zS3lvdG8gUmVzdGF1cmFudCBXYWd5dSBTdGVhayBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYXdhcmFtYWNoaSDkuqzpg70g5ZKM54mbIOeJm-aOkg!5e1!3m2!1sja!2sjp!4v1778840775753!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.972209755835!2d135.7679637!3d35.007585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109eb0b6e9e0d%3A0x396abcf92231069c!2zS3lvdG8gUmVzdGF1cmFudCBXYWd5dSBTdGVhayBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYXdhcmFtYWNoaSDkuqzpg70g5ZKM54mbIOeJm-aOkg!5e0!3m2!1sja!2sjp!4v1778840775753!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/kyoto_beeftei?igsh=MWh0cXF3ajY3ZGZmNw==",
 
     // --- Googleレビュー ---
@@ -371,7 +371,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-ohatsutennjin/reserve/message",
     maps_link: "https://maps.app.goo.gl/ycVUMzupbrTkH5K49",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d208.43404903499732!2d135.50131916090282!3d34.70092857295818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e737d3d79fad%3A0x34aa836911c15bd3!2sWagyu%20Steak%20%26%20Hamburger%20(Halal%20Gluten%20Free)%20Osaka%20Station%20Restaurant!5e1!3m2!1sja!2sjp!4v1778840872907!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d208.43404903499732!2d135.50131916090282!3d34.70092857295818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e737d3d79fad%3A0x34aa836911c15bd3!2sWagyu%20Steak%20%26%20Hamburger%20(Halal%20Gluten%20Free)%20Osaka%20Station%20Restaurant!5e0!3m2!1sja!2sjp!4v1778840872907!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
@@ -431,7 +431,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-shinokubo-5w-tokyo/reserve/message",
     maps_link: "https://maps.app.goo.gl/ENuVfdJZuARJvQjn7",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d760.4621575436136!2d139.7020532!3d35.698213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0a84c996ff%3A0xa473959440d7db81!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgUGl6emEgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYWJ1a2kgU2hpbiBPa3VibyBSZXN0YXVyYW50IOaWsOWuvyDlkozniZsg5ouJ6Z2iIOmkkOWOhQ!5e1!3m2!1sja!2sjp!4v1778840962512!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d760.4621575436136!2d139.7020532!3d35.698213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0a84c996ff%3A0xa473959440d7db81!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgUGl6emEgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYWJ1a2kgU2hpbiBPa3VibyBSZXN0YXVyYW50IOaWsOWuvyDlkozniZsg5ouJ6Z2iIOmkkOWOhQ!5e0!3m2!1sja!2sjp!4v1778840962512!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/shinjuku_5w_tokyo?igsh=MW01OGZ5YXhvaWNsZw==",
 
     // --- Googleレビュー ---
@@ -490,7 +490,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kiyomizuzaka/reserve/message",
     maps_link: "https://maps.app.goo.gl/wjXaMLqBmmHEDqQH8",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.7720639052673!2d135.7774029!3d34.9974298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001096c31b78bf7%3A0xa3d8830499cb8d38!2sWagyu%20%26%20Vegan%20Hamburger%20(Halal%20Gluten%20Free)%20%E5%92%8C%E7%89%9B%E6%B1%89%E5%A0%A1%20Kiyomizu%20Temple%20Restaurant!5e1!3m2!1sja!2sjp!4v1778841131814!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.7720639052673!2d135.7774029!3d34.9974298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001096c31b78bf7%3A0xa3d8830499cb8d38!2sWagyu%20%26%20Vegan%20Hamburger%20(Halal%20Gluten%20Free)%20%E5%92%8C%E7%89%9B%E6%B1%89%E5%A0%A1%20Kiyomizu%20Temple%20Restaurant!5e0!3m2!1sja!2sjp!4v1778841131814!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/kiyomizutemple_wagyu?igsh=dDNzZHFlYzZlZ3Zy",
 
     // --- Googleレビュー ---
@@ -549,7 +549,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
     maps_link: "https://maps.app.goo.gl/AUdW6VdgHGQYwJAf7",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.002921492206!2d135.7709998!3d35.00676610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109f8ec8e546d%3A0xb4bace007b0c3c15!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyICYgU3RlYWsgUG9udG8gUmVzdGF1cmFudCDkuqzpg70g5YWI5paX55S6IOWSjOeJmyDppJDljoU!5e1!3m2!1sja!2sjp!4v1778841232824!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.002921492206!2d135.7709998!3d35.00676610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109f8ec8e546d%3A0xb4bace007b0c3c15!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyICYgU3RlYWsgUG9udG8gUmVzdGF1cmFudCDkuqzpg70g5YWI5paX55S6IOWSjOeJmyDppJDljoU!5e0!3m2!1sja!2sjp!4v1778841232824!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
@@ -608,7 +608,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-arashiyama-annex/reserve/landing",
     maps_link: "https://maps.app.goo.gl/a631nd44vdsBEFZu6",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.65173791376475!2d135.6776938!3d35.0143079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a99212dffc35%3A0xf645c30a9a0b98e8!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBBcmFzaGl5YW1hIOWSjOeJm-eJm-aOkiDmsYnloKEg5bKa5bGx!5e1!3m2!1sja!2sjp!4v1782899640237!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.65173791376475!2d135.6776938!3d35.0143079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a99212dffc35%3A0xf645c30a9a0b98e8!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBBcmFzaGl5YW1hIOWSjOeJm-eJm-aOkiDmsYnloKEg5bKa5bGx!5e0!3m2!1sja!2sjp!4v1782899640237!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
@@ -664,7 +664,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/pBA2XjY1NKAEfoEo6",
-    maps_embed: "https://www.google.com/maps?q=Wagyu+Hamburger+Halal+Kobe+Beef+Vegan+Food+Nishiki+Market+Restaurant&output=embed",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423.0350056540081!2d135.7651216168885!3d35.005047035111254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109937ec645bf%3A0x41ce30c34337b619!2zV2FneXUgSGFtYnVyZ2VyIEhhbGFsIEtvYmUgQmVlZiBWZWdhbiBGb29kIE5pc2hpa2kgTWFya2V0IFJlc3RhdXJhbnQg6ZSm5biC5Zy65ZKM54mb6aSQ5Y6F!5e0!3m2!1sja!2sjp!4v1788510058869!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
@@ -732,7 +732,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-ginza-5w-tokyo/reserve/message",
     maps_link: "https://maps.app.goo.gl/DyQunnGLgQuuQmcY8",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7478.453910310958!2d139.768631!3d35.671435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8a1b1f7ca7%3A0x8d81bba28006abf!2zSmFwYW5lc2UgRm9vZCBXYWd5dSBCZWVmIChIYWxhbCkgUmFtZW4gSGFtYnVyZ2VyIEdpbnphIFJlc3RhdXJhbnQgNVctVG9reW8gKOS4nOS6rOWSjOeJm-aLiem6uik!5e1!3m2!1sja!2sjp!4v1785475907515!5m2!1sja!2sjp",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7478.453910310958!2d139.768631!3d35.671435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8a1b1f7ca7%3A0x8d81bba28006abf!2zSmFwYW5lc2UgRm9vZCBXYWd5dSBCZWVmIChIYWxhbCkgUmFtZW4gSGFtYnVyZ2VyIEdpbnphIFJlc3RhdXJhbnQgNVctVG9reW8gKOS4nOS6rOWSjOeJm-aLiem6uik!5e0!3m2!1sja!2sjp!4v1785475907515!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
@@ -788,7 +788,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
     maps_link: "",
-    maps_embed: "",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4295.522449971176!2d135.773778!3d34.9682511!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f2f82a16acb%3A0xf7a862de393a5393!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIEhhbGFsIEtvYmUgQmVlZiBWZWdhbiBGdXNoaW1pIEluYXJpIFJlc3RhdXJhbnQg5ZKM54mb5LyP6KeB56i76I236aSQ5Y6F!5e0!3m2!1sja!2sjp!4v1788507911643!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
@@ -844,7 +844,7 @@ const stores = [
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
     maps_link: "",
-    maps_embed: "https://www.google.com/maps?q=Kobe+Beef+Wagyu+Halal+Steak+Hamburger+Vegan+Kuromon+Market+Restaurant&output=embed",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.1925327116332!2d135.5064025434511!3d34.66631173029866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7193b5269b5%3A0xde029b0881fc94d4!2zS29iZSBCZWVmIFdhZ3l1IEhhbGFsIFN0ZWFrIEhhbWJ1cmdlciBWZWdhbiBLdXJvbW9uIE1hcmtldCBSZXN0YXVyYW50IOelnuaIt-eJm-iCiemkkOWOhQ!5e0!3m2!1sja!2sjp!4v1788510298712!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
