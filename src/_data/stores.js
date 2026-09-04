@@ -23,12 +23,15 @@
 //      新大久保1F     →  /tokyo/shin-okubo/
 //      東銀座1F       →  /tokyo/higashi-ginza/
 //      お初天神1F     →  /osaka/ohatsu-tenjin/
+//      黒門市場       →  /osaka/kuromon-market/
 //      京都駅前1F     →  /kyoto/kyoto-station/
 //      京都河原町2F   →  /kyoto/kyoto-kawaramachi/
 //      清水坂1F       →  /kyoto/kiyomizuzaka/
 //      先斗町2F       →  /kyoto/pontocho/
 //      嵐山2F         →  /kyoto/arashiyama/
-//      錦市場3F       →  /kyoto/nishiki-market/
+//      錦市場1F       →  /kyoto/nishiki-market/
+//      伏見稲荷1F     →  /kyoto/fushimi-inari/
+//      五条坂1F       →  /kyoto/gojozaka/
 //
 //  ■ 新しい店舗を追加する手順
 //
@@ -842,6 +845,62 @@ const stores = [
     tablecheck_url: "",
     maps_link: "",
     maps_embed: "https://www.google.com/maps?q=Kobe+Beef+Wagyu+Halal+Steak+Hamburger+Vegan+Kuromon+Market+Restaurant&output=embed",
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
+
+  // ─────────────────────────────────────────────
+  // 五条坂1F店   →  /kyoto/gojozaka/
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "五条坂1F",
+
+    // --- 店名 ---
+    name: "Wagyu Hamburger Kobe Beef Gojozaka Halal Vegan Gluten Free Restaurant 京都美食",
+    name_short: "Gojozaka",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "kyoto",
+    slug: "gojozaka",
+
+    // --- ページ内の地名表示 ---
+    area_label: "GOJOZAKA · KYOTO",
+    city: "Kyoto",
+    hero_headline_place: "Kyoto Gojozaka",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒605-0864 京都府京都市東山区遊行前町５５９−１ 1F",
+    address_en: "559-1 Yugyomaecho, Higashiyama-ku, Kyoto-shi, Kyoto 605-0864, Japan",
+    station_en: "Kiyomizu-Gojo Station",
+    station_note: "Yugyomaecho, Higashiyama-ku",
+
+    // --- 営業時間 ---
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "090-8994-4593",
+    tel_raw: "819089944593",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
+    tablecheck_url: "",                 // 未開設。空のままだと自動で「電話予約」ボタンになります
+    maps_link: "",                      // GB開設後に共有URL（https://maps.app.goo.gl/...）を入れる
+    maps_embed: "",                     // GB開設後に埋め込みURLを入れる。空の間は地図セクションごと非表示
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
