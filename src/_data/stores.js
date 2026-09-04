@@ -787,7 +787,7 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
-    maps_link: "",
+    maps_link: "https://maps.app.goo.gl/Gj7z8tkkfi2DeaHD9",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4295.522449971176!2d135.773778!3d34.9682511!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f2f82a16acb%3A0xf7a862de393a5393!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIEhhbGFsIEtvYmUgQmVlZiBWZWdhbiBGdXNoaW1pIEluYXJpIFJlc3RhdXJhbnQg5ZKM54mb5LyP6KeB56i76I236aSQ5Y6F!5e0!3m2!1sja!2sjp!4v1788507911643!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
