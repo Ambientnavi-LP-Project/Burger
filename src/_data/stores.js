@@ -843,7 +843,7 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",
-    maps_link: "",
+    maps_link: "https://maps.app.goo.gl/RH7DC96Y8ZrMbsfa9",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.1925327116332!2d135.5064025434511!3d34.66631173029866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7193b5269b5%3A0xde029b0881fc94d4!2zS29iZSBCZWVmIFdhZ3l1IEhhbGFsIFN0ZWFrIEhhbWJ1cmdlciBWZWdhbiBLdXJvbW9uIE1hcmtldCBSZXN0YXVyYW50IOelnuaIt-eJm-iCiemkkOWOhQ!5e0!3m2!1sja!2sjp!4v1788510298712!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
@@ -899,8 +899,8 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",                 // 未開設。空のままだと自動で「電話予約」ボタンになります
-    maps_link: "",                      // GB開設後に共有URL（https://maps.app.goo.gl/...）を入れる
-    maps_embed: "",                     // GB開設後に埋め込みURLを入れる。空の間は地図セクションごと非表示
+    maps_link: "https://maps.app.goo.gl/cE93c9DMv2GHV4mX7",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1634.2425204013146!2d135.77530552985922!3d34.99456146196812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109127a619cc9%3A0xad3311dfc3d9c703!2sWagyu%20Hamburger%20Kobe%20Beef%20Gojozaka%20Halal%20Vegan%20Gluten%20Free%20Restaurant%20%E4%BA%AC%E9%83%BD%E7%BE%8E%E9%A3%9F!5e0!3m2!1sja!2sjp!4v1788767183708!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
