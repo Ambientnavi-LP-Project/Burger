@@ -731,8 +731,8 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-ginza-5w-tokyo/reserve/message",
-    maps_link: "https://maps.app.goo.gl/DyQunnGLgQuuQmcY8",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7478.453910310958!2d139.768631!3d35.671435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8a1b1f7ca7%3A0x8d81bba28006abf!2zSmFwYW5lc2UgRm9vZCBXYWd5dSBCZWVmIChIYWxhbCkgUmFtZW4gSGFtYnVyZ2VyIEdpbnphIFJlc3RhdXJhbnQgNVctVG9reW8gKOS4nOS6rOWSjOeJm-aLiem6uik!5e0!3m2!1sja!2sjp!4v1785475907515!5m2!1sja!2sjp",
+    maps_link: "https://maps.app.goo.gl/5kbrAvzrYVzqDRR88",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.6251859301601!2d139.76779941143224!3d35.67083662872174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8a1b1f7ca7%3A0x8d81bba28006abf!2zSmFwYW5lc2UgRm9vZCBXYWd5dSBCZWVmIChIYWxhbCkgUmFtZW4gSGFtYnVyZ2VyIEdpbnphIFJlc3RhdXJhbnQgNVctVG9reW8gKOS4nOS6rOWSjOeJm-aLiem6uik!5e0!3m2!1sja!2sjp!4v1788768792606!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
