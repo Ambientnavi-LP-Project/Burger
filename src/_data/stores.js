@@ -911,6 +911,62 @@ const stores = [
     // --- ヒーロー写真 ---
     hero_photos: [],
   },
+
+  // ─────────────────────────────────────────────
+  // 道玄坂1F店   →  /tokyo/dogenzaka/
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "道玄坂1F",
+
+    // --- 店名 ---
+    name: "Wagyu Steak & Hamburger (Halal Vegan Gluten free) Shibuya Restaurant 涩谷 和牛 餐厅",
+    name_short: "Dogenzaka",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "tokyo",
+    slug: "dogenzaka",
+
+    // --- ページ内の地名表示 ---
+    area_label: "DOGENZAKA · TOKYO",
+    city: "Tokyo",
+    hero_headline_place: "Shibuya Dogenzaka",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒150-0043 東京都渋谷区道玄坂２丁目２５−１２ 道玄坂通 1F",
+    address_en: "Hotel Indigo Tokyo Shibuya 1F, 2-25-12 Dogenzaka, Shibuya-ku, Tokyo 150-0043, Japan",
+    station_en: "Shibuya Station",
+    station_note: "Dogenzaka, Shibuya-ku",
+
+    // --- 営業時間 ---
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "090-9750-8252",
+    tel_raw: "819097508252",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",
+    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-tokyo-shibuya-dogenzaka/reserve/landing",
+    maps_link: "https://maps.app.goo.gl/G3MeGY4BVboUxVYMA",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.849976870516!2d139.69644088096413!3d35.65976343120024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d88255f46d9%3A0x178977c5bb48b891!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBTaGlidXlhIFJlc3RhdXJhbnQg5rap6LC3IOWSjOeJmyDppJDljoU!5e0!3m2!1sja!2sjp!4v1789362487782!5m2!1sja!2sjp",
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
 ];
 
 // ============================================================================
