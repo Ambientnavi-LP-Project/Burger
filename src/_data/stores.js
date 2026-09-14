@@ -842,7 +842,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "",
+    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kuromon/reserve/message",
     maps_link: "https://maps.app.goo.gl/RH7DC96Y8ZrMbsfa9",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.1925327116332!2d135.5064025434511!3d34.66631173029866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7193b5269b5%3A0xde029b0881fc94d4!2zS29iZSBCZWVmIFdhZ3l1IEhhbGFsIFN0ZWFrIEhhbWJ1cmdlciBWZWdhbiBLdXJvbW9uIE1hcmtldCBSZXN0YXVyYW50IOelnuaIt-eJm-iCiemkkOWOhQ!5e0!3m2!1sja!2sjp!4v1788510298712!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
