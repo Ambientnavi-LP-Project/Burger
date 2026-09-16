@@ -513,7 +513,7 @@ const stores = [
     internal_name: "先斗町2F",
 
     // --- 店名 ---
-    name: "Wagyu Halal Hamburger & Steak Ponto Restaurant 京都 先斗町 和牛 餐厅",
+    name: "Wagyu Hamburger Steak Halal Vegan Kawaramachi Restaurant 京都美食",
     name_short: "Pontocho",
 
     // --- URL（ページのアドレスになります） ---
