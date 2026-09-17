@@ -32,6 +32,7 @@
 //      錦市場1F       →  /kyoto/nishiki-market/
 //      伏見稲荷1F     →  /kyoto/fushimi-inari/
 //      五条坂1F       →  /kyoto/gojozaka/
+//      祇園四条       →  /kyoto/gion/
 //
 //  ■ 新しい店舗を追加する手順
 //
@@ -957,6 +958,63 @@ const stores = [
     tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-tokyo-shibuya-dogenzaka/reserve/landing",
     maps_link: "https://maps.app.goo.gl/G3MeGY4BVboUxVYMA",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.849976870516!2d139.69644088096413!3d35.65976343120024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d88255f46d9%3A0x178977c5bb48b891!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBTaGlidXlhIFJlc3RhdXJhbnQg5rap6LC3IOWSjOeJmyDppJDljoU!5e0!3m2!1sja!2sjp!4v1789362487782!5m2!1sja!2sjp",
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
+
+  // ─────────────────────────────────────────────
+  // 祇園四条店   →  /kyoto/gion/
+  //   旧 omakase 祇園店（sushi）の業態変更。住所・電話・地図は omakase 時代と同じ
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "祇園四条",
+
+    // --- 店名 ---
+    name: "Wagyu Hamburger Kobe Beef Halal Vegan Gion Restaurant 京都美食",
+    name_short: "Gion",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "kyoto",
+    slug: "gion",
+
+    // --- ページ内の地名表示 ---
+    area_label: "GION · KYOTO",
+    city: "Kyoto",
+    hero_headline_place: "Kyoto Gion",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒605-0078 京都府京都市東山区富永町135",
+    address_en: "135 Tominaga-cho, Higashiyama-ku, Kyoto-shi, Kyoto 605-0078, Japan",
+    station_en: "Gion-Shijo Station",
+    station_note: "Tominaga-cho, Higashiyama-ku",
+
+    // --- 営業時間 ---
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "070-3527-8163",
+    tel_raw: "817035278163",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",
+    tablecheck_url: "https://www.tablecheck.com/en/omakase-kyoto-shijo/reserve/message",  // omakase 祇園店と共用（2026-09 リダイレクト後URLを確認済み）
+    maps_link: "https://maps.app.goo.gl/TbMo3qDpCAJdZxQ28",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.39!2d135.7737978!3d35.0043878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109a786ed6fa1%3A0xab65ce235f13f050!2sWagyu%20Hamburger%20Kobe%20Beef%20Halal%20Vegan%20Gion%20Restaurant%20%E4%BA%AC%E9%83%BD%E7%BE%8E%E9%A3%9F!5e0!3m2!1sja!2sjp!4v1789603200000!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
