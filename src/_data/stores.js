@@ -34,6 +34,7 @@
 //      五条坂1F       →  /kyoto/gojozaka/
 //      祇園四条       →  /kyoto/gion/
 //      近鉄奈良       →  /nara/kintetsu-nara/
+//      大淀南         →  /osaka/oyodominami/
 //
 //  ■ 新しい店舗を追加する手順
 //
@@ -1069,6 +1070,65 @@ const stores = [
     // --- 電話番号 ---
     tel_display: "090-5485-9656",
     tel_raw: "819054859656",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",
+    tablecheck_url: "",                 // 未開設。空のままなので「電話で予約」ボタンになります
+    maps_link: "",                      // GB開設後に 共有→リンクをコピー の URL を貼る
+    maps_embed: "",                     // GB開設後に 共有→地図を埋め込む の src の中身だけを貼る
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
+
+  // ─────────────────────────────────────────────
+  // 大淀南店   →  /osaka/oyodominami/
+  //   2026-10-05 頃オープン予定。Googleビジネスプロフィール開設前のため
+  //   maps_link / maps_embed / google_rating は空。開設後に追記してください。
+  //   営業時間は暫定値（確定したら hours / hours_note を書き換え）。
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "大淀南",
+
+    // --- 店名 ---
+    name: "Wagyu Hamburger Steak Halal Kobe Beef Vegan Gluten Free Umeda Restaurant 大阪和牛餐厅",
+    name_short: "Umeda",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "osaka",
+    slug: "oyodominami",
+
+    // --- ページ内の地名表示 ---
+    area_label: "UMEDA · OSAKA",
+    city: "Osaka",
+    hero_headline_place: "Osaka Umeda",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒531-0075 大阪府大阪市北区大淀南１丁目４−１",
+    address_en: "1-4-1 Oyodominami, Kita-ku, Osaka-shi, Osaka 531-0075, Japan",
+    station_en: "Umeda / Osaka Station",
+    station_note: "Oyodominami, Kita-ku",
+
+    // --- 営業時間 ---
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "090-2196-7059",
+    tel_raw: "819021967059",
 
     // --- リンク ---
     reserve_system: "tablecheck",
