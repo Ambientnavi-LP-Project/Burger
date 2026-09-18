@@ -33,6 +33,7 @@
 //      伏見稲荷1F     →  /kyoto/fushimi-inari/
 //      五条坂1F       →  /kyoto/gojozaka/
 //      祇園四条       →  /kyoto/gion/
+//      近鉄奈良       →  /nara/kintetsu-nara/
 //
 //  ■ 新しい店舗を追加する手順
 //
@@ -1015,6 +1016,65 @@ const stores = [
     tablecheck_url: "https://www.tablecheck.com/en/omakase-kyoto-shijo/reserve/message",  // omakase 祇園店と共用（2026-09 リダイレクト後URLを確認済み）
     maps_link: "https://maps.app.goo.gl/TbMo3qDpCAJdZxQ28",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.39!2d135.7737978!3d35.0043878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109a786ed6fa1%3A0xab65ce235f13f050!2sWagyu%20Hamburger%20Kobe%20Beef%20Halal%20Vegan%20Gion%20Restaurant%20%E4%BA%AC%E9%83%BD%E7%BE%8E%E9%A3%9F!5e0!3m2!1sja!2sjp!4v1789603200000!5m2!1sja!2sjp",
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
+
+  // ─────────────────────────────────────────────
+  // 近鉄奈良店   →  /nara/kintetsu-nara/
+  //   2026-09-30 頃オープン予定。Googleビジネスプロフィール開設前のため
+  //   maps_link / maps_embed / google_rating は空。開設後に追記してください。
+  //   営業時間は暫定値（確定したら hours / hours_note を書き換え）。
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "近鉄奈良",
+
+    // --- 店名 ---
+    name: "Wagyu Steak Hamburger Halal Kobe Beef Vegan 奈良美食 Nara Park Restaurant",
+    name_short: "Nara",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "nara",
+    slug: "kintetsu-nara",
+
+    // --- ページ内の地名表示 ---
+    area_label: "NARA PARK · NARA",
+    city: "Nara",
+    hero_headline_place: "Nara Park",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒630-8225 奈良県奈良市西御門町１１−１１ プライムビル 3F",
+    address_en: "Prime Building 3F, 11-11 Nishimikado-cho, Nara-shi, Nara 630-8225, Japan",
+    station_en: "Kintetsu Nara Station",
+    station_note: "Nishimikado-cho, Nara-shi",
+
+    // --- 営業時間 ---
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "090-5485-9656",
+    tel_raw: "819054859656",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",
+    tablecheck_url: "",                 // 未開設。空のままなので「電話で予約」ボタンになります
+    maps_link: "",                      // GB開設後に 共有→リンクをコピー の URL を貼る
+    maps_embed: "",                     // GB開設後に 共有→地図を埋め込む の src の中身だけを貼る
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
