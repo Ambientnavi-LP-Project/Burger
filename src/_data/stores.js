@@ -476,9 +476,9 @@ const stores = [
     station_note: "Kiyomizu, Higashiyama-ku",
 
     // --- 営業時間 ---
-    hours: "9:00 — 21:00",
+    hours: "9:00 — 23:00",
     hours_note: "Open Daily",
-    hours_special: "Fri 9:00 — 21:00",
+    hours_special: "Fri 9:00 — 23:00",
 
     // --- モーニング（朝食・ブランチ） ---
     morning: false,
