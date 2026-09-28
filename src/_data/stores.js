@@ -35,6 +35,7 @@
 //      祇園四条       →  /kyoto/gion/
 //      近鉄奈良       →  /nara/kintetsu-nara/
 //      大淀南         →  /osaka/oyodominami/
+//      明治神宮       →  /tokyo/meiji-jingu/
 //
 //  ■ 新しい店舗を追加する手順
 //
@@ -1129,6 +1130,64 @@ const stores = [
     // --- 電話番号 ---
     tel_display: "090-2196-7059",
     tel_raw: "819021967059",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",
+    tablecheck_url: "",                 // 未開設。空のままなので「電話で予約」ボタンになります
+    maps_link: "",                      // GB開設後に 共有→リンクをコピー の URL を貼る
+    maps_embed: "",                     // GB開設後に 共有→地図を埋め込む の src の中身だけを貼る
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
+  // ─────────────────────────────────────────────
+  // 明治神宮店   →  /tokyo/meiji-jingu/
+  //   2026-10-10 以降オープン予定。Googleビジネスプロフィール開設前のため
+  //   maps_link / maps_embed / google_rating は空。開設後に追記してください。
+  //   TableCheck未開設のため tablecheck_url は空（電話予約ボタン）。
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "明治神宮",
+
+    // --- 店名 ---
+    name: "Wagyu Halal Kobe Beef Steak Hamburger Ramen Vegan 涩谷美食 Meiji Jingu Restaurant",
+    name_short: "Meiji Jingu",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "tokyo",
+    slug: "meiji-jingu",
+
+    // --- ページ内の地名表示 ---
+    area_label: "HARAJUKU · TOKYO",
+    city: "Tokyo",
+    hero_headline_place: "Harajuku Meiji Jingu",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒150-0001 東京都渋谷区神宮前６丁目６−６ 穏田1st.ビル 2F",
+    address_en: "Onden 1st. Bldg. 2F, 6-6-6 Jingumae, Shibuya-ku, Tokyo 150-0001, Japan",
+    station_en: "Meiji-jingumae (Harajuku) Station",
+    station_note: "Jingumae, Shibuya-ku",
+
+    // --- 営業時間 ---
+    hours: "10:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "080-2891-5195",
+    tel_raw: "818028915195",
 
     // --- リンク ---
     reserve_system: "tablecheck",
