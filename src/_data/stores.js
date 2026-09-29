@@ -1148,8 +1148,8 @@ const stores = [
   },
   // ─────────────────────────────────────────────
   // 明治神宮店   →  /tokyo/meiji-jingu/
-  //   2026-10-10 以降オープン予定。Googleビジネスプロフィール開設前のため
-  //   maps_link / maps_embed / google_rating は空。開設後に追記してください。
+  //   2026-10-10 以降オープン予定。GB開設済み（2026-09-29 地図設定）。
+  //   google_rating はレビューが付いたら追記してください。
   //   TableCheck未開設のため tablecheck_url は空（電話予約ボタン）。
   // ─────────────────────────────────────────────
   {
@@ -1192,8 +1192,8 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",
     tablecheck_url: "",                 // 未開設。空のままなので「電話で予約」ボタンになります
-    maps_link: "",                      // GB開設後に 共有→リンクをコピー の URL を貼る
-    maps_embed: "",                     // GB開設後に 共有→地図を埋め込む の src の中身だけを貼る
+    maps_link: "https://maps.app.goo.gl/XZT94quQLbgB694RA",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d810.3460550394275!2d139.70488550720106!3d35.66754025812859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188db12d336ca7%3A0xc543e4b5c5d4d4c8!2sWagyu%20Halal%20Kobe%20Beef%20Steak%20Hamburger%20Ramen%20Vegan%20%E6%B6%A9%E8%B0%B7%E7%BE%8E%E9%A3%9F%20Meiji%20Jingu%20Restaurant!5e0!3m2!1sja!2sjp!4v1790662528972!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
