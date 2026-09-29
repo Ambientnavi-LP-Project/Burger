@@ -903,8 +903,8 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
     tablecheck_url: "",                 // 未開設。空のままだと自動で「電話予約」ボタンになります
-    maps_link: "https://maps.app.goo.gl/cE93c9DMv2GHV4mX7",
-    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1634.2425204013146!2d135.77530552985922!3d34.99456146196812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109127a619cc9%3A0xad3311dfc3d9c703!2sWagyu%20Hamburger%20Kobe%20Beef%20Gojozaka%20Halal%20Vegan%20Gluten%20Free%20Restaurant%20%E4%BA%AC%E9%83%BD%E7%BE%8E%E9%A3%9F!5e0!3m2!1sja!2sjp!4v1788767183708!5m2!1sja!2sjp",
+    maps_link: "https://maps.app.goo.gl/EFBNfkuAxWFrKpPH7",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.8839443991349!2d135.77619444903846!3d34.994574191158975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109127a619cc9%3A0xad3311dfc3d9c703!2sWagyu%20Hamburger!5e0!3m2!1sja!2sjp!4v1790660684693!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
