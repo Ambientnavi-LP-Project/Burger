@@ -775,7 +775,7 @@ const stores = [
     station_note: "Kaidocho, Fushimi-ku",
 
     // --- 営業時間 ---
-    hours: "11:00 — 23:00",
+    hours: "9:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
