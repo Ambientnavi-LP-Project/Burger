@@ -595,7 +595,7 @@ const stores = [
     station_note: "Saga, Ukyo-ku",
 
     // --- 営業時間 ---
-    hours: "11:00 — 19:00",
+    hours: "9:00 — 19:00",
     hours_note: "Open Daily",
     hours_special: "",
 
@@ -652,7 +652,7 @@ const stores = [
 
     // --- 営業時間 ---
     hours: "8:00 — 23:00",
-    hours_note: "Open Daily · Morning & Brunch 7:00 — 13:00",
+    hours_note: "Open Daily · Morning & Brunch 8:00 — 13:00",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
@@ -707,26 +707,20 @@ const stores = [
     station_note: "Ginza, Chuo-ku",
 
     // --- 営業時間 ---
-    hours: "7:00 — 25:00",
+    hours: "8:00 — 25:00",
     hours_note: "Open Daily · until 1:00 AM · Morning & Brunch until 13:00",
     hours_special: "",
 
-    // --- 曜日ごとの営業時間（金土日は7時開店、月〜木は8時開店） ---
-    hours_lines: [
-      { days: "Fri – Sun", time: "7:00 — 25:00" },
-      { days: "Mon – Thu", time: "8:00 — 25:00" },
-    ],
+    // --- 曜日ごとの営業時間 ---
+    hours_lines: [],
 
     // --- モーニング（朝食・ブランチ） ---
     morning: true,
-    morning_hours: "7:00 — 13:00",
+    morning_hours: "8:00 — 13:00",
     morning_note: "L.O. 12:30",
 
-    // --- 曜日ごとのモーニング時間（金土日は7時から、月〜木は8時から） ---
-    morning_lines: [
-      { days: "Fri – Sun", time: "7:00 — 13:00" },
-      { days: "Mon – Thu", time: "8:00 — 13:00" },
-    ],
+    // --- 曜日ごとのモーニング時間 ---
+    morning_lines: [],
 
     // --- 電話番号 ---
     tel_display: "03-6278-7139",
@@ -775,7 +769,7 @@ const stores = [
     station_note: "Kaidocho, Fushimi-ku",
 
     // --- 営業時間 ---
-    hours: "9:00 — 23:00",
+    hours: "11:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
@@ -831,7 +825,7 @@ const stores = [
     station_note: "Nipponbashi, Chuo-ku",
 
     // --- 営業時間 ---
-    hours: "11:00 — 23:00",
+    hours: "9:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
@@ -1176,7 +1170,7 @@ const stores = [
     station_note: "Jingumae, Shibuya-ku",
 
     // --- 営業時間 ---
-    hours: "10:00 — 23:00",
+    hours: "11:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
