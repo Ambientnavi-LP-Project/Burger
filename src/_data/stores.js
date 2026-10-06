@@ -1201,7 +1201,7 @@ const stores = [
   },
   // ─────────────────────────────────────────────
   // 広島駅店   →  /hiroshima/hiroshima-station/
-  //   GB開設前。開設後に maps_link / maps_embed を追記してください。
+  //   GB開設済み（2026-10-06 地図設定）。google_rating はレビューが付いたら追記してください。
   //   TableCheck未開設のため tablecheck_url は空（電話予約ボタン）。
   // ─────────────────────────────────────────────
   {
@@ -1244,8 +1244,8 @@ const stores = [
     // --- リンク ---
     reserve_system: "tablecheck",
     tablecheck_url: "",                 // 未開設。空のままなので「電話で予約」ボタンになります
-    maps_link: "",                      // GB開設後に 共有→リンクをコピー の URL を貼る
-    maps_embed: "",                     // GB開設後に 共有→地図を埋め込む の src の中身だけを貼る
+    maps_link: "https://maps.app.goo.gl/w7tPEfRTbjwyr5Tp8",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1507.157087572845!2d132.47344738580014!3d34.39801724550818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9fcd708f8071%3A0x6fd36abb6052e38f!2sWagyu%20Hamburger%20Steak%20Kobe%20Beef%20Halal%20Vegan%20Hiroshima%20Restaurant%20%E5%B9%BF%E5%B2%9B%E7%BE%8E%E9%A3%9F!5e0!3m2!1sja!2sjp!4v1791272078027!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
