@@ -478,9 +478,9 @@ const stores = [
     station_note: "Kiyomizu, Higashiyama-ku",
 
     // --- 営業時間 ---
-    hours: "9:00 — 23:00",
+    hours: "10:00 — 23:00",
     hours_note: "Open Daily",
-    hours_special: "Fri 9:00 — 23:00",
+    hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
     morning: false,
@@ -770,7 +770,7 @@ const stores = [
     station_note: "Kaidocho, Fushimi-ku",
 
     // --- 営業時間 ---
-    hours: "11:00 — 23:00",
+    hours: "10:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
@@ -882,7 +882,7 @@ const stores = [
     station_note: "Yugyomaecho, Higashiyama-ku",
 
     // --- 営業時間 ---
-    hours: "11:00 — 23:00",
+    hours: "10:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
