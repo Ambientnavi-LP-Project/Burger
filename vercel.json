@@ -9,6 +9,16 @@
       "source": "/tokyo/ginza",
       "destination": "/tokyo/higashi-ginza",
       "permanent": true
+    },
+    {
+      "source": "/kyoto/gojozaka",
+      "destination": "https://halal-food-wagyu.com/kyoto/gots-gojozaka-burger/",
+      "permanent": true
+    },
+    {
+      "source": "/kyoto/gojozaka/",
+      "destination": "https://halal-food-wagyu.com/kyoto/gots-gojozaka-burger/",
+      "permanent": true
     }
   ]
 }
