@@ -826,7 +826,7 @@ const stores = [
     station_note: "Nipponbashi, Chuo-ku",
 
     // --- 営業時間 ---
-    hours: "9:00 — 23:00",
+    hours: "10:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
