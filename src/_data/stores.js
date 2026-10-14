@@ -300,7 +300,7 @@ const stores = [
     station_note: "Matsugaecho, Nakagyo-ku",
 
     // --- 営業時間 ---
-    hours: "11:00 — 25:00",
+    hours: "10:00 — 25:00",
     hours_note: "Open Daily",
     hours_special: "",
 
