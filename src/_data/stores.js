@@ -882,7 +882,7 @@ const stores = [
     station_note: "Yugyomaecho, Higashiyama-ku",
 
     // --- 営業時間 ---
-    hours: "10:00 — 23:00",
+    hours: "8:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
