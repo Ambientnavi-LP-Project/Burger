@@ -882,14 +882,14 @@ const stores = [
     station_note: "Yugyomaecho, Higashiyama-ku",
 
     // --- 営業時間 ---
-    hours: "10:00 — 23:00",
+    hours: "8:00 — 23:00",
     hours_note: "Open Daily",
     hours_special: "",
 
     // --- モーニング（朝食・ブランチ） ---
-    morning: false,
-    morning_hours: "",
-    morning_note: "",
+    morning: true,
+    morning_hours: "8:00 — 13:00",
+    morning_note: "L.O. 12:30",
 
     // --- 電話番号 ---
     tel_display: "090-8994-4593",
