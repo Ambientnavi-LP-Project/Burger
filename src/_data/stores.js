@@ -32,6 +32,7 @@
 //      錦市場1F       →  /kyoto/nishiki-market/
 //      伏見稲荷1F     →  /kyoto/fushimi-inari/
 //      五条坂1F       →  /kyoto/gojozaka/
+//      五条坂4F       →  /kyoto/gojozaka-4f/
 //      祇園四条       →  /kyoto/gion/
 //      近鉄奈良       →  /nara/kintetsu-nara/
 //      大淀南         →  /osaka/oyodominami/
@@ -900,6 +901,62 @@ const stores = [
     tablecheck_url: "",                 // 未開設。空のままだと自動で「電話予約」ボタンになります
     maps_link: "https://maps.app.goo.gl/EFBNfkuAxWFrKpPH7",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1183.8839443991349!2d135.77619444903846!3d34.994574191158975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109127a619cc9%3A0xad3311dfc3d9c703!2sWagyu%20Hamburger!5e0!3m2!1sja!2sjp!4v1790660684693!5m2!1sja!2sjp",
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
+
+  // ─────────────────────────────────────────────
+  // 五条坂4F店   →  /kyoto/gojozaka-4f/
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "五条坂4F",
+
+    // --- 店名 ---
+    name: "Hamburger Wagyu Halal Kobe Beef Kyoto Restaurant",
+    name_short: "Gojozaka 4F",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "kyoto",
+    slug: "gojozaka-4f",
+
+    // --- ページ内の地名表示 ---
+    area_label: "GOJOZAKA · KYOTO",
+    city: "Kyoto",
+    hero_headline_place: "Kyoto Gojozaka",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒605-0864 京都府京都市東山区遊行前町５５９−３ 4F",
+    address_en: "4F, 559-3 Yugyomaecho, Higashiyama-ku, Kyoto-shi, Kyoto 605-0864, Japan",
+    station_en: "Kiyomizu-Gojo Station",
+    station_note: "Yugyomaecho, Higashiyama-ku",
+
+    // --- 営業時間 ---
+    hours: "9:00 — 23:00",              // 五条坂1F（GOTS五条坂バーガー・ラーメン）に合わせた
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "090-4650-5368",
+    tel_raw: "819046505368",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",
+    tablecheck_url: "",                 // 未開設。空のままなので「電話で予約」ボタンになります
+    maps_link: "",                      // GB開設後にGoogleマップの共有URLを入れる
+    maps_embed: "",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
