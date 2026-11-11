@@ -38,6 +38,7 @@
 //      大淀南         →  /osaka/oyodominami/
 //      明治神宮       →  /tokyo/meiji-jingu/
 //      広島駅         →  /hiroshima/hiroshima-station/
+//      難波（道頓堀）  →  /osaka/namba/
 //
 //  ■ 新しい店舗を追加する手順
 //
@@ -1303,6 +1304,63 @@ const stores = [
     tablecheck_url: "",                 // 未開設。空のままなので「電話で予約」ボタンになります
     maps_link: "https://maps.app.goo.gl/w7tPEfRTbjwyr5Tp8",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1507.157087572845!2d132.47344738580014!3d34.39801724550818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x355a9fcd708f8071%3A0x6fd36abb6052e38f!2sWagyu%20Hamburger%20Steak%20Kobe%20Beef%20Halal%20Vegan%20Hiroshima%20Restaurant%20%E5%B9%BF%E5%B2%9B%E7%BE%8E%E9%A3%9F!5e0!3m2!1sja!2sjp!4v1791272078027!5m2!1sja!2sjp",
+    instagram_url: "https://www.instagram.com/5w_tokyo_official/",
+
+    // --- Googleレビュー ---
+    google_rating: "",
+    google_count: "",
+    google_rating_img: "assets/google_rating.jpg",
+
+    // --- ヒーロー写真 ---
+    hero_photos: [],
+  },
+  // ─────────────────────────────────────────────
+  // 難波（道頓堀）店   →  /osaka/namba/
+  //   ミシュランラーメンLP（michelin-ramen.halal-food-wagyu.com/osaka/namba/）から移植したバーガー版。
+  //   住所・電話・TableCheck・地図はミシュラン側の店舗データと同じ。
+  // ─────────────────────────────────────────────
+  {
+    // --- 社内名称（社内での呼び名。自由記入。ページには出ません） ---
+    internal_name: "難波",
+
+    // --- 店名 ---
+    name: "Wagyu Hamburger Steak Kobe Beef Halal Dotonbori Namba Restaurant 难波 和牛 餐厅",
+    name_short: "Namba",
+
+    // --- URL（ページのアドレスになります） ---
+    region: "osaka",
+    slug: "namba",
+
+    // --- ページ内の地名表示 ---
+    area_label: "DOTONBORI · OSAKA",
+    city: "Namba",
+    hero_headline_place: "Osaka's Dotonbori",
+
+    // --- 住所・最寄り駅 ---
+    address_jp: "〒542-0071 大阪府大阪市中央区道頓堀２丁目１−３ パークランドビル 1F",
+    address_en: "Parkland Building 1F, 2-1-3 Dotonbori, Chuo-ku, Osaka-shi, Osaka 542-0071, Japan",
+    station_en: "Namba Station",
+    station_note: "Dotonbori, Chuo-ku",
+
+    // --- 営業時間 ---
+    hours: "11:00 — 23:00",
+    hours_note: "Open Daily",
+    hours_special: "",
+
+    // --- モーニング（朝食・ブランチ） ---
+    morning: false,
+    morning_hours: "",
+    morning_note: "",
+
+    // --- 電話番号 ---
+    tel_display: "070-2388-4392",
+    tel_raw: "817023884392",
+
+    // --- リンク ---
+    reserve_system: "tablecheck",
+    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-namba/reserve/message",
+    maps_link: "https://maps.app.goo.gl/Sp9i9PtFMNCSGmK66",
+    maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3913.8017817583786!2d135.4956783!3d34.6688229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7b16b2c66cf%3A0x545100087d563061!2zV2FneXUgKEhhbGFsKSBSYW1lbiBOb29kbGUgRG90b25ib3JpIE5hbWJhIFJlc3RhdXJhbnQg5ZKM54mbIOmBk-mhv-WggCDmi4npnaIg6aSQ5Y6F!5e1!3m2!1sja!2sjp!4v1779956693320!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
 
     // --- Googleレビュー ---
