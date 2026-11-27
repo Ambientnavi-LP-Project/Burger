@@ -197,7 +197,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/wagyu-burger-steak-teriyaki-5w-tokyo/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/fXbRutAYbfwRURvb8",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3041.1465698468437!2d139.7915157!3d35.7166131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188f7f6725d0bf%3A0x39af2212744db3fa!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgQXNha3VzYSBSZXN0YXVyYW50IOa1heiNiSDlkozniZsg6aSQ5Y6F!5e0!3m2!1sja!2sjp!4v1778839909309!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/asakusa_5w_tokyo?igsh=MWtucGx3eHZ0b2h0aQ==",
@@ -257,7 +257,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/5wkyotostation/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/FWXEbcpzn2UBsP5R9",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.80962803300258!2d135.758567!3d34.9813969!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010914c6123c99%3A0xce2cb01951e322a2!2zV2FneXUgU3RlYWsgSGFtYnVyZ2VyIChIYWxhbCBWZWdhbiBHbHV0ZW4gRnJlZSkgS3lvdG8gU3RhdGlvbiBSZXN0YXVyYW50IOS6rOmDvSDlkozniZsg54mb5o6S!5e0!3m2!1sja!2sjp!4v1778840662153!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/kyoto_beeftei?igsh=MWh0cXF3ajY3ZGZmNw==",
@@ -316,7 +316,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/5wkawaramachi/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/nANKvRW8xDvM6DC2A",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.972209755835!2d135.7679637!3d35.007585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109eb0b6e9e0d%3A0x396abcf92231069c!2zS3lvdG8gUmVzdGF1cmFudCBXYWd5dSBTdGVhayBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYXdhcmFtYWNoaSDkuqzpg70g5ZKM54mbIOeJm-aOkg!5e0!3m2!1sja!2sjp!4v1778840775753!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/kyoto_beeftei?igsh=MWh0cXF3ajY3ZGZmNw==",
@@ -375,7 +375,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-ohatsutennjin/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/ycVUMzupbrTkH5K49",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d208.43404903499732!2d135.50131916090282!3d34.70092857295818!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e737d3d79fad%3A0x34aa836911c15bd3!2sWagyu%20Steak%20%26%20Hamburger%20(Halal%20Gluten%20Free)%20Osaka%20Station%20Restaurant!5e0!3m2!1sja!2sjp!4v1778840872907!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -435,7 +435,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-shinokubo-5w-tokyo/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/ENuVfdJZuARJvQjn7",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d760.4621575436136!2d139.7020532!3d35.698213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d0a84c996ff%3A0xa473959440d7db81!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgUGl6emEgKEhhbGFsIFZlZ2FuIEdsdXRlbiBGcmVlKSBLYWJ1a2kgU2hpbiBPa3VibyBSZXN0YXVyYW50IOaWsOWuvyDlkozniZsg5ouJ6Z2iIOmkkOWOhQ!5e0!3m2!1sja!2sjp!4v1778840962512!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/shinjuku_5w_tokyo?igsh=MW01OGZ5YXhvaWNsZw==",
@@ -494,7 +494,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kiyomizuzaka/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/wjXaMLqBmmHEDqQH8",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d191.7720639052673!2d135.7774029!3d34.9974298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001096c31b78bf7%3A0xa3d8830499cb8d38!2sWagyu%20%26%20Vegan%20Hamburger%20(Halal%20Gluten%20Free)%20%E5%92%8C%E7%89%9B%E6%B1%89%E5%A0%A1%20Kiyomizu%20Temple%20Restaurant!5e0!3m2!1sja!2sjp!4v1778841131814!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/kiyomizutemple_wagyu?igsh=dDNzZHFlYzZlZ3Zy",
@@ -553,7 +553,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-ponto/reserve/landing",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/AUdW6VdgHGQYwJAf7",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3068.002921492206!2d135.7709998!3d35.00676610000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109f8ec8e546d%3A0xb4bace007b0c3c15!2zV2FneXUgSGFsYWwgSGFtYnVyZ2VyICYgU3RlYWsgUG9udG8gUmVzdGF1cmFudCDkuqzpg70g5YWI5paX55S6IOWSjOeJmyDppJDljoU!5e0!3m2!1sja!2sjp!4v1778841232824!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -612,7 +612,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kyoto-arashiyama-annex/reserve/landing",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/a631nd44vdsBEFZu6",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.65173791376475!2d135.6776938!3d35.0143079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a99212dffc35%3A0xf645c30a9a0b98e8!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBBcmFzaGl5YW1hIOWSjOeJm-eJm-aOkiDmsYnloKEg5bKa5bGx!5e0!3m2!1sja!2sjp!4v1782899640237!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -647,7 +647,7 @@ const stores = [
     hero_headline_place: "Kyoto Nishiki Market",
 
     // --- 住所・最寄り駅 ---
-    address_jp: "〒604-8057 京都府京都市中京区麩屋町通錦小路上る梅屋町５０１ 1F",
+    address_jp: "〒604-8057 京都府京都市中京区梅屋町５０１ １ F",
     address_en: "1F, 501 Umeyacho, Nakagyo-ku, Kyoto-shi, Kyoto 604-8057, Japan",
     station_en: "Nishiki Market",
     station_note: "Umeyacho, Nakagyo-ku",
@@ -730,7 +730,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-ginza-5w-tokyo/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/5kbrAvzrYVzqDRR88",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.6251859301601!2d139.76779941143224!3d35.67083662872174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8a1b1f7ca7%3A0x8d81bba28006abf!2zSmFwYW5lc2UgRm9vZCBXYWd5dSBCZWVmIChIYWxhbCkgUmFtZW4gSGFtYnVyZ2VyIEdpbnphIFJlc3RhdXJhbnQgNVctVG9reW8gKOS4nOS6rOWSjOeJm-aLiem6uik!5e0!3m2!1sja!2sjp!4v1788768792606!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -842,7 +842,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",       // "tablecheck"（外部予約サイト）/ "form"（自社フォーム）。このLPは全店 tablecheck
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-kuromon/reserve/message",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/RH7DC96Y8ZrMbsfa9",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d410.1925327116332!2d135.5064025434511!3d34.66631173029866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7193b5269b5%3A0xde029b0881fc94d4!2zS29iZSBCZWVmIFdhZ3l1IEhhbGFsIFN0ZWFrIEhhbWJ1cmdlciBWZWdhbiBLdXJvbW9uIE1hcmtldCBSZXN0YXVyYW50IOelnuaIt-eJm-iCiemkkOWOhQ!5e0!3m2!1sja!2sjp!4v1788510298712!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -933,7 +933,7 @@ const stores = [
     hero_headline_place: "Kyoto Gojozaka",
 
     // --- 住所・最寄り駅 ---
-    address_jp: "〒605-0864 京都府京都市東山区遊行前町５５９−３ 4F",
+    address_jp: "〒605-0864 京都府京都市東山区遊行前町５５９−３ ４F",
     address_en: "4F, 559-3 Yugyomaecho, Higashiyama-ku, Kyoto-shi, Kyoto 605-0864, Japan",
     station_en: "Kiyomizu-Gojo Station",
     station_note: "Yugyomaecho, Higashiyama-ku",
@@ -989,8 +989,8 @@ const stores = [
     hero_headline_place: "Shibuya Dogenzaka",
 
     // --- 住所・最寄り駅 ---
-    address_jp: "〒150-0043 東京都渋谷区道玄坂２丁目２５−１２ 道玄坂通 1F",
-    address_en: "Hotel Indigo Tokyo Shibuya 1F, 2-25-12 Dogenzaka, Shibuya-ku, Tokyo 150-0043, Japan",
+    address_jp: "〒150-0043 東京都渋谷区道玄坂２丁目２５−１２ 通 ホテルインディゴ東京渋谷 1F",
+    address_en: "1F, Hotel Indigo Tokyo Shibuya, 2-25-12 Dogenzaka, Shibuya-ku, Tokyo 150-0043, Japan",
     station_en: "Shibuya Station",
     station_note: "Dogenzaka, Shibuya-ku",
 
@@ -1010,7 +1010,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",
-    tablecheck_url: "https://www.tablecheck.com/en/halal-wagyu-tokyo-shibuya-dogenzaka/reserve/landing",
+    tablecheck_url: "",
     maps_link: "https://maps.app.goo.gl/G3MeGY4BVboUxVYMA",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.849976870516!2d139.69644088096413!3d35.65976343120024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d88255f46d9%3A0x178977c5bb48b891!2zV2FneXUgU3RlYWsgJiBIYW1idXJnZXIgKEhhbGFsIFZlZ2FuIEdsdXRlbiBmcmVlKSBTaGlidXlhIFJlc3RhdXJhbnQg5rap6LC3IOWSjOeJmyDppJDljoU!5e0!3m2!1sja!2sjp!4v1789362487782!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -1046,7 +1046,7 @@ const stores = [
     hero_headline_place: "Kyoto Gion",
 
     // --- 住所・最寄り駅 ---
-    address_jp: "〒605-0078 京都府京都市東山区富永町135",
+    address_jp: "〒605-0078 京都府京都市東山区富永町１３５",
     address_en: "135 Tominaga-cho, Higashiyama-ku, Kyoto-shi, Kyoto 605-0078, Japan",
     station_en: "Gion-Shijo Station",
     station_note: "Tominaga-cho, Higashiyama-ku",
@@ -1067,7 +1067,7 @@ const stores = [
 
     // --- リンク ---
     reserve_system: "tablecheck",
-    tablecheck_url: "https://www.tablecheck.com/en/omakase-kyoto-shijo/reserve/message",  // omakase 祇園店と共用（2026-09 リダイレクト後URLを確認済み）
+    tablecheck_url: "",  // omakase 祇園店と共用（2026-09 リダイレクト後URLを確認済み）
     maps_link: "https://maps.app.goo.gl/TbMo3qDpCAJdZxQ28",
     maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.39!2d135.7737978!3d35.0043878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109a786ed6fa1%3A0xab65ce235f13f050!2sWagyu%20Hamburger%20Kobe%20Beef%20Halal%20Vegan%20Gion%20Restaurant%20%E4%BA%AC%E9%83%BD%E7%BE%8E%E9%A3%9F!5e0!3m2!1sja!2sjp!4v1789603200000!5m2!1sja!2sjp",
     instagram_url: "https://www.instagram.com/5w_tokyo_official/",
@@ -1279,7 +1279,7 @@ const stores = [
     hero_headline_place: "Hiroshima Station",
 
     // --- 住所・最寄り駅 ---
-    address_jp: "〒732-0822 広島県広島市南区松原町２−６２ 広島ＪＰビルディング 2階",
+    address_jp: "〒732-0822 広島県広島市南区松原町２−６２ 広島JPビルディング 2階",
     address_en: "Hiroshima JP Building 2F, 2-62 Matsubara-cho, Minami-ku, Hiroshima-shi, Hiroshima 732-0822, Japan",
     station_en: "Hiroshima Station",
     station_note: "Matsubara-cho, Minami-ku",
